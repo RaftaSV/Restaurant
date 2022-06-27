@@ -3,7 +3,7 @@ import {StyleImage, StyleNumber, StylePrice, StyleWrapper} from './style';
 
 
 
-const CardProducts = ({ name, price,description , number, image }) => {
+export const CardProducts = ({ name, price,description , number, image }) => {
   return (
     <StyleWrapper>
       <StylePrice><Title size={25}>${price}</Title> </StylePrice>
@@ -15,6 +15,5 @@ const CardProducts = ({ name, price,description , number, image }) => {
   );
 };
 
-export default CardProducts;
 
 

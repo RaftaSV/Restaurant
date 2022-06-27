@@ -3,8 +3,8 @@ import Banner from 'components/Atoms/Banner';
 import Separator from 'components/Atoms/Separator';
 import { GetSpecialPlatters }from 'Data/Data'
 import {Col, Row} from 'react-grid-system';
-import  CardProducts  from 'components/Molecules/CardProducts';
 import Layout from '../components/Organisms/Layout';
+import { CardProducts } from '../components/Molecules/CardProducts';
 
 document.title = 'Home';
 
@@ -14,7 +14,7 @@ const data = GetSpecialPlatters();
   return (
    <Layout>
         <Banner/>
-        <Separator Name={'Special Platters'}></Separator>
+        <Separator Name={'Platos especiales'}></Separator>
       <Row>
         {data?.map(( Platter ) => {
           const {name , number , description, price, image} = Platter;
@@ -31,7 +31,6 @@ const data = GetSpecialPlatters();
           );
         })}
       </Row>
-
    </Layout>
   );
 

@@ -7,7 +7,7 @@ const config = {
 export const ROUTES = {
   MAIN: {
     path: 'Home',
-    absolutePath: 'Home'
+    absolutePath: '/'
   },
   NOTFOUND: {
     path: 'NotFound',
