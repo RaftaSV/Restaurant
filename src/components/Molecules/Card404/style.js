@@ -2,21 +2,25 @@ import styled from 'styled-components';
 import Button from 'components/Atoms/Button';
 
 export const StyleWrapper = styled.div`
-  position: relative;
-  max-width: 700px;
+  margin-top: -5%;
+  max-width: 100%;
+  max-height: 670px;
   background-color: ${({ theme }) => theme.colors.bgCard};
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 15px 0;
-`;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  position: static;
+  flex-direction: column;
+
+  `;
 
 export const StyleImage = styled.img`
   border-radius: 12px;
-  max-width: 400px;
-  width: 100%;
-  height: 100%;
+  max-width: 600px;
   object-fit: cover;
+  top: 50%;
 `;
 
 
