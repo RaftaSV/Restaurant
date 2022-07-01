@@ -8,6 +8,9 @@ export const ROUTES = {
   MAIN: {
     path: 'Home',
     absolutePath: '/'
+  }, INDEX: {
+    path: 'index',
+    absolutePath: '/index'
   },
   NOTFOUND: {
     path: 'NotFound',

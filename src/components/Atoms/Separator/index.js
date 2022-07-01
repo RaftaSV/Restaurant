@@ -1,12 +1,2 @@
-import {  StyleWrapper } from './style';
-import Title from '../Title';
+export { default } from './Separator'
 
-const Separator = ( { Name } ) => {
-  return(
-    <StyleWrapper>
-      <Title children={Name}  ></Title>
-    </StyleWrapper>
-  );
-};
-
-export default Separator;

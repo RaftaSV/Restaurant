@@ -1,5 +1,5 @@
 import   Card404  from 'components/Molecules/Card404'
-import Navbar from '../components/Organisms/Navbar';
+import Navbar from 'components/Organisms/Navbar';
 
 document.title = 'NotFound';
 

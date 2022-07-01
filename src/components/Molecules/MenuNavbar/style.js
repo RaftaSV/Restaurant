@@ -17,10 +17,20 @@ export const StyleImage = styled.img`
 export const StyleMenuItem = styled(Button)`
   margin-right: 10px;
   min-width: auto;
-  padding: 1px 10px;
   transition: color 0.3s;
   font-weight: 700;
+  margin-top: 5px;
+  &:hover {
+    opacity: 1;
+    color: ${({ theme }) => theme.colors.secondary};
+  }
+`;
 
+export const StyleLanguage = styled.div`
+  margin-right: 10px;
+  width: 50px;
+  min-width: auto;
+  cursor: pointer;
   &:hover {
     opacity: 1;
     color: ${({ theme }) => theme.colors.secondary};

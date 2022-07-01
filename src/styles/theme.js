@@ -1,4 +1,4 @@
-import fondo from 'components/Images/App/Fondo.png';
+//import fondo from 'components/Images/App/Fondo.png';
 
 const colorsLight = {
   primary: '#127dff',
@@ -11,7 +11,7 @@ const colorsLight = {
   black: '#000',
   white: '#fff',
   transparent: 'transparent',
-  background: `url(${fondo})`,
+  //background: `url(${fondo})`,
   bgCard: 'rgba(209,155,123,0.28)',
   text: '#000000',
   nav: '#ce3c61',

@@ -28,10 +28,16 @@ export const StyleImage = styled.img`
 export const StylePrice = styled.div`
   position: absolute;
   background-color: ${({ theme }) => theme.colors.nav};
-  border-radius: 40px;
+  transform: rotate(45deg);
   padding: 5px;
-  right: 0;
-  bottom: 0;
+  right: 19px;
+  bottom: 10px;
+  width: 60px;
+  height: 60px;
+`;
+export const StylePriceText = styled.div`
+  background-color: ${({ theme }) => theme.colors.transparent};
+  transform: rotate(-45deg);
 `;
 
 export const StyleNumber = styled.div`

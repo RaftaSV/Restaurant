@@ -1,22 +1,27 @@
 
 import Banner from 'components/Atoms/Banner';
 import Separator from 'components/Atoms/Separator';
-import { GetSpecialPlatters }from 'Data/Data'
+
 import {Col, Row} from 'react-grid-system';
 import Layout from '../components/Organisms/Layout';
 import { CardProducts } from '../components/Molecules/CardProducts';
+import {useTranslation} from 'react-i18next';
 
 document.title = 'Home';
 
 function Main() {
-const data = GetSpecialPlatters();
+  const {t} = useTranslation();
+  const dataSpecialDish = t('SpecialPlatter', { returnObjects: true });
 
   return (
    <Layout>
         <Banner/>
-        <Separator Name={'Platos especiales'}></Separator>
+
+       <Separator  Name={t('SpecialDish')}></Separator>
+
+
       <Row>
-        {data?.map(( Platter ) => {
+        {dataSpecialDish?.map(( Platter ) => {
           const {name , number , description, price, image} = Platter;
           return (
             <Col key={number} xs={15} md={5} lg={4}>
