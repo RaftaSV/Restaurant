@@ -21,7 +21,7 @@ function Main() {
 
 
       <Row>
-        {dataSpecialDish?.map(( Platter ) => {
+        { dataSpecialDish?.map(( Platter ) => {
           const {name , number , description, price, image} = Platter;
           return (
             <Col key={number} xs={15} md={5} lg={4}>

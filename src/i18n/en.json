@@ -13,7 +13,48 @@
       "name": "sea and land",
       "price": 35,
       "description": "better sea on your table ",
-      "number": 2,
+      "number": 2, "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+      "name": "sea and land",
+      "price": 35,
+      "description": "better sea on your table ",
+      "number": 3,
+      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+      "name": "sea and land",
+      "price": 35,
+      "description": "better sea on your table ",
+      "number": 4,
+      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+      "name": "sea and land",
+      "price": 35,
+      "description": "better sea on your table ",
+      "number": 5,
+      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+      "name": "sea and land",
+      "price": 35,
+      "description": "better sea on your table ",
+      "number": 6,
+      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+        "name": "sea and land",
+        "price": 35,
+        "description": "better sea on your table ",
+        "number": 7,
+        "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      },
+      {
+        "name": "sea and land",
+        "price": 35,
+        "description": "better sea on your table ",
+        "number": 8,
         "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
       }
     ],

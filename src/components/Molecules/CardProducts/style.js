@@ -4,12 +4,14 @@ export const StyleWrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.bgCard};
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding:40px;
+  padding:4px;
+  margin-left: 5px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
+  height: 400px;
 
 
  `;
@@ -17,11 +19,8 @@ export const StyleWrapper = styled.div`
 export const StyleImage = styled.img`
   border-radius: 12px;
   max-width: 300px;
-  width: 100%;
-  height: 100%;
-  align-content: center;
   display: flex;
-
+  width: 100%;
 `;
 
 
@@ -49,4 +48,9 @@ export const StyleNumber = styled.div`
   top:8px;
   height: 40px;
   align-items: center;
+`;
+
+export const  StyleDescription = styled.div`
+  margin-left: -20%;
+  width: 70%;
 `;

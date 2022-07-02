@@ -5,7 +5,7 @@ import Title from '../Title';
 const Separator = ( { Name, ...restProps} ) => {
   return(
     <StyleWrapper {...restProps}>
-      <Title   > {Name}</Title>
+      <Title size={55}   > {Name}</Title>
     </StyleWrapper>
   );
 };

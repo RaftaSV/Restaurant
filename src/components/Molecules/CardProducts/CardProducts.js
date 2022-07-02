@@ -1,5 +1,5 @@
 import Title from 'components/Atoms/Title';
-import {StyleImage, StyleNumber, StylePrice, StylePriceText, StyleWrapper} from './style';
+import {StyleDescription, StyleImage, StyleNumber, StylePrice, StylePriceText, StyleWrapper} from './style';
 
 export const CardProducts = ({ name, price,description , number, image, ...restProps }) => {
 
@@ -9,7 +9,9 @@ export const CardProducts = ({ name, price,description , number, image, ...restP
       <StyleNumber> <h2>{number}</h2> </StyleNumber>
       <StyleImage loading="lazy" src={image}  />
       <Title size={18} color={'nameProduct'}>{name}</Title>
+      <StyleDescription>
       <Title size={17} > {description} </Title>
+      </StyleDescription>
     </StyleWrapper>
   );
 };
