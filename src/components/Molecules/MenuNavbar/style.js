@@ -12,7 +12,15 @@ export const StyleImage = styled.img`
   max-width: 75px;
   width: 100%;
   height: 100%;
+  margin-left: 8%;
 `;
+export const StyleItemLeft = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+`;
+
 
 export const StyleMenuItem = styled(Button)`
   margin-right: 10px;

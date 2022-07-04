@@ -4,10 +4,12 @@ import Navbar from 'components/Organisms/Navbar';
 
 const Layout = ({ children }) => {
   return (
-    <div className="App">
-      <Navbar />
+    <>
+      <Navbar/>
       <Container>{children}</Container>
-    </div>
+    </>
+
+
   );
 };
 
