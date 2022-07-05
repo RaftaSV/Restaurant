@@ -5,6 +5,7 @@ export const StyleWrapper = styled.div`
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 200ms;
+  
 
   &:active {
     background-color: rgba(100, 100, 100, 0.1);

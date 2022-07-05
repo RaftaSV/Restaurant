@@ -21,7 +21,7 @@ export const StyleCarousel = styled.div`
   .slick-prev:before,
   .slick-next:before {
     color:  ${({ theme }) => theme.colors.text};
-    font-size: 40px;
+    font-size: 50px;
     margin-left: -50%;
   }
 `;
