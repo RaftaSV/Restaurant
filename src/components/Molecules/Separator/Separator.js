@@ -1,6 +1,6 @@
 import {  StyleWrapper } from './style';
 
-import Title from '../Title';
+import Title from 'components/Atoms/Title';
 
 const Separator = ( { Name, ...restProps} ) => {
   return(

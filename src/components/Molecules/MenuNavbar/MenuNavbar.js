@@ -1,16 +1,15 @@
-import { useAppTheme } from 'context/AppTheme';
-import SunFilled from 'components/Atoms/Icons/SunFilled';
-import MoonFilled from 'components/Atoms/Icons/MoonFilled';
-import logo from 'components/Images/App/logo.png';
-import {StyleImage, StyleItemLeft, StyleLanguage, StyleMenuItem, StyleMenuNavbar} from './style';
+import useModal from 'Hooks/useModal';
 import {useTranslation} from 'react-i18next';
-import English from '../../Atoms/Flag/English';
-import Spanish from '../../Atoms/Flag/Spanish';
-import {useAppLanguage} from '../../../context/AppLanguaje';
-import ButtonBurger from '../../Atoms/ButtonBurguer';
-import useModal from '../../../Hooks/useModal';
-import {ModalMenu} from '../Modals';
-
+import { useAppTheme } from 'context/AppTheme';
+import logo from 'components/Images/App/logo.png';
+import {useAppLanguage} from 'context/AppLanguaje';
+import English from 'components/Atoms/Flag/English';
+import Spanish from 'components/Atoms/Flag/Spanish';
+import {ModalMenu} from 'components/Molecules/Modals';
+import SunFilled from 'components/Atoms/Icons/SunFilled';
+import ButtonBurger from 'components/Atoms/ButtonBurguer';
+import MoonFilled from 'components/Atoms/Icons/MoonFilled';
+import {StyleImage, StyleItemLeft, StyleLanguage, StyleMenuItem, StyleMenuNavbar} from './style';
 
 
 const MenuNavbar = () => {

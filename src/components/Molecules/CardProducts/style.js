@@ -17,16 +17,15 @@ export const StyleWrapper = styled.div`
  `;
 
 export const StyleImage = styled.img`
-  max-width: 300px;
-  display: flex;
   width: 100%;
+  display: flex;
   margin-top: 20px;
 `;
 
 
 export const StylePrice = styled.div`
   position: absolute;
-  background-color: ${({ theme }) => theme.colors.nav};
+  background-color: ${({ theme }) => theme.colors.price};
   transform: rotate(45deg);
   padding: 5px;
   right: 20px;
@@ -44,7 +43,7 @@ export const StylePriceText = styled.div`
 
 export const StyleNumber = styled.div`
   position: absolute;
-  background-color: ${({ theme }) => theme.colors.nav};
+  background-color: ${({ theme }) => theme.colors.price};
   border-radius: 60px;
   padding: 10px;
   left: 30px;

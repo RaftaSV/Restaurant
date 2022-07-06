@@ -20,6 +20,7 @@ const colorsLight = {
   shadowInput: 'rgb(224, 224, 224)',
   Separator : 'rgba(225,114,205,0.24)',
   nameProduct: '#56321f',
+  price: 'rgba(206,60,97,0.53)',
 };
 
 const colorsDark = {
@@ -33,7 +34,7 @@ const colorsDark = {
   shadowInput: 'rgb(77, 77, 77)',
   Separator : 'rgba(221,114,225,0.47)',
   nameProduct: 'rgba(253,125,225,0.53)',
-
+  price: 'rgba(191,60,206,0.37)',
 };
 
 const zIndex = {

@@ -2,7 +2,7 @@ import Slider from 'react-slick';
 import {Col} from 'react-grid-system';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Separator from 'components/Atoms/Separator';
+import Separator from 'components/Molecules/Separator';
 import {StyleCarousel, StyleWrapper} from './style';
 import {CardProducts} from 'components/Molecules/CardProducts';
 

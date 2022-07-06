@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyleBody = styled.div`
   position: absolute;
   min-width: 478px;
+  height: auto;
   padding: 10px;
   background-color: ${({ theme }) => theme.colors.nav};
   display: flex;

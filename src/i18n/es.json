@@ -1,5 +1,13 @@
 {
   "message.notfound" : "Pagina No encontrada",
+  "SpecialDish" : "Platos especiales",
+  "breakfast" : "Desayunos",
+  "chicken": "Pollo",
+  "rice": "Arroz",
+  "typicalPlatters" : "Platillos tipicos",
+  "SeaFood ": "Mariscos",
+  "KidsMenu": "Menú para niños",
+  "beverages": "Bebidas",
   "SpecialPlatter" :
   [
     {
@@ -8,22 +16,29 @@
       "description": "Camarones, Arroz, Ensalada,  Aguacate,  Frijoles, Plátano, Carne De Res.",
       "number": 1,
       "image" : "https://drive.google.com/uc?export=view&id=1QW1LTct7jbyj8dsxfEXVZC85ivyhsIor"
-      },
+    },
     {
       "name": "Mar y tierra",
       "price": "$35.00",
-      "description": " La mejor convinacion de la tierra y el mar ",
+      "description": " La mejor conbinacion de la tierra y el mar ",
       "number": 2,
       "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
     },
     {
       "name": "Mar y tierra",
       "price": "$35.00",
-      "description": " La mejor convinacion de la tierra y el mar ",
+      "description": " La mejor conbinacion de la tierra y el mar ",
       "number": 3,
       "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
     }
   ],
-  "SpecialDish" : "Platos especiales"
+
+  "breakfastPlatters" : [{}],
+  "chickenPlatters": [{}],
+  "ricePlatters": [{}],
+  "typicalPlatter" : [{}],
+  "SeaFoodPlatters": [{}],
+  "KidsMenuPlatter": [{}],
+  "beverage": [{}]
 
 }

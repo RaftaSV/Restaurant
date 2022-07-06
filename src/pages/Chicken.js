@@ -3,14 +3,14 @@ import {useTranslation} from 'react-i18next';
 import Layout from 'components/Organisms/Layout';
 import Carousel from 'components/Organisms/Carousel';
 
-export default function SpecialDish() {
+export default function Chicken() {
   document.title='Dish';
   const {t} = useTranslation();
-  const dataSpecialDish = t('SpecialPlatter', { returnObjects: true });
-  const separator = t('SpecialDish');
+  const chickenPlatters = t('chickenPlatters', { returnObjects: true });
+  const separator = t('chicken');
   return (
     <Layout>
-      <Carousel data={dataSpecialDish} separator={separator}>
+      <Carousel data={chickenPlatters} separator={separator}>
       </Carousel>
     </Layout>
 
