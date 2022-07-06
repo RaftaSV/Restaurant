@@ -17,10 +17,10 @@ export const StyleWrapper = styled.div`
  `;
 
 export const StyleImage = styled.img`
-  border-radius: 12px;
   max-width: 300px;
   display: flex;
   width: 100%;
+  margin-top: 20px;
 `;
 
 
@@ -29,14 +29,17 @@ export const StylePrice = styled.div`
   background-color: ${({ theme }) => theme.colors.nav};
   transform: rotate(45deg);
   padding: 5px;
-  right: 19px;
-  bottom: 10px;
+  right: 20px;
   width: 60px;
   height: 60px;
+  top: 13px;
 `;
 export const StylePriceText = styled.div`
+  position: absolute;
   background-color: ${({ theme }) => theme.colors.transparent};
   transform: rotate(-45deg);
+  right: 2px;
+  top: 11px;
 `;
 
 export const StyleNumber = styled.div`
@@ -44,13 +47,14 @@ export const StyleNumber = styled.div`
   background-color: ${({ theme }) => theme.colors.nav};
   border-radius: 60px;
   padding: 10px;
-  left: 2px;
+  left: 30px;
   top:8px;
   height: 40px;
   align-items: center;
 `;
 
 export const  StyleDescription = styled.div`
-  margin-left: -20%;
-  width: 70%;
+  display: flex;
+  width: auto;
+  text-align: justify;
 `;

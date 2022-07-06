@@ -4,58 +4,23 @@
     [
       {
       "name": "sea and land",
-      "price": 35,
+      "price": "$35.00",
       "description": " La mejor convinacion de la tierra y el mar ",
       "number": 1,
         "image" : "https://drive.google.com/uc?export=view&id=1QW1LTct7jbyj8dsxfEXVZC85ivyhsIor"
        },
       {
       "name": "sea and land",
-      "price": 35,
+      "price": "$35.00",
       "description": "better sea on your table ",
       "number": 2, "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
       },
       {
       "name": "sea and land",
-      "price": 35,
+      "price": "$35.00",
       "description": "better sea on your table ",
       "number": 3,
       "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
-      },
-      {
-      "name": "sea and land",
-      "price": 35,
-      "description": "better sea on your table ",
-      "number": 4,
-      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
-      },
-      {
-      "name": "sea and land",
-      "price": 35,
-      "description": "better sea on your table ",
-      "number": 5,
-      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
-      },
-      {
-      "name": "sea and land",
-      "price": 35,
-      "description": "better sea on your table ",
-      "number": 6,
-      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
-      },
-      {
-        "name": "sea and land",
-        "price": 35,
-        "description": "better sea on your table ",
-        "number": 7,
-        "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
-      },
-      {
-        "name": "sea and land",
-        "price": 35,
-        "description": "better sea on your table ",
-        "number": 8,
-        "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
       }
     ],
   "SpecialDish" : "Special dishes"

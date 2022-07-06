@@ -5,7 +5,7 @@ export const CardProducts = ({ name, price,description , number, image, ...restP
 
   return (
     <StyleWrapper {...restProps}>
-      <StylePrice> <StylePriceText> <Title size={30}>${price}</Title> </StylePriceText></StylePrice>
+      <StylePrice> <StylePriceText> <Title size={19}>{price}</Title> </StylePriceText></StylePrice>
       <StyleNumber> <h2>{number}</h2> </StyleNumber>
       <StyleImage loading="lazy" src={image}  />
       <Title size={18} color={'nameProduct'}>{name}</Title>
