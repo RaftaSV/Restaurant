@@ -15,13 +15,20 @@ const ModalMenu = ({ visible, onCancel }) => {
         X
       </StyleCloseBtn>
 
-      <h1>Hola</h1>
+      <h1>Platos especiales</h1>
       <br/>
-      <h1>Hola</h1>
+      <h1>Mariscos</h1>
       <br/>
-      <h1>Hola</h1>
+      <h1>Pollo</h1>
       <br/>
-      <h1>Hola</h1>
+      <h1>Carne</h1>
+      <br/>
+      <h1>Tipicos</h1>
+      <br/>
+      <h1>Otros</h1>
+      <br/>
+      <h1>Bebidas</h1>
+
     </Modal>
   );
 };
