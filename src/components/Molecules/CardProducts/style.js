@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyleWrapper = styled.div`
-  background-color: ${({ theme }) => theme.colors.bgCard};
+  background: ${({ theme }) => theme.colors.bgCard};
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding:4px;

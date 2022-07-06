@@ -1,4 +1,4 @@
-//import fondo from 'components/Images/App/Fondo.png';
+import Backgraund from 'components/Images/App/Fondo.png';
 
 const colorsLight = {
   primary: '#127dff',
@@ -12,7 +12,7 @@ const colorsLight = {
   white: '#fff',
   transparent: 'transparent',
   //background: `url(${fondo})`,
-  bgCard: 'rgba(209,155,123,0.28)',
+  bgCard: `url(${Backgraund})`,
   text: '#000000',
   nav: '#ce3c61',
   modal: 'rgba(0, 0, 0, 0.1)',
