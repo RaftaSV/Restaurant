@@ -13,22 +13,21 @@
     {
       "name": "sea and land",
       "price": "$35.00",
-      "description": " La mejor conbinacion de la tierra y el mar ",
+      "description": "\nShrimp, Rice, Salad, Avocado, Beans, Banana, Beef.",
       "number": 1,
       "image" : "https://drive.google.com/uc?export=view&id=1QW1LTct7jbyj8dsxfEXVZC85ivyhsIor"
     },
     {
-      "name": "sea and land",
+      "name": "pork tenderloin",
       "price": "$35.00",
-      "description": "better sea on your table ",
+      "description": "Pork Loin, Rice, Salad, Beans",
       "number": 2, "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
     },
     {
-      "name": "sea and land",
-      "price": "$35.00",
-      "description": "better sea on your table ",
-      "number": 3,
-      "image" : "https://www.cubaneandoconmario.com/wp-content/uploads/2020/09/Mar-y-Tierra-640x422.jpg"
+      "name": "Camarones al ajillo, arroz, frijoles y ensalada",
+      "price": "$18.00",
+      "description": "Garlic shrimp, rice, beans and salad",
+      "number": 2, "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     }
   ],
   "breakfastPlatters" : [{}],
