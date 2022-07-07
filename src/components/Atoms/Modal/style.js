@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 
 export const StyleBody = styled.div`
-  position: absolute;
-  min-width: 478px;
-  height: auto;
+  position: relative;
+  min-width: 450px;
   padding: 10px;
   background-color: ${({ theme }) => theme.colors.nav};
   display: flex;
-  border: 2px;
   flex-direction: column;
+  align-content: center;
   z-index: ${({ theme }) => theme.zIndex.max} ;
 
 `;
 
 export const customStyles = {
   overlay: {
-    backdropFilter: 'saturate(180%) blur(20px)'
+    backdropFilter: 'saturate(180%) blur()'
   },
   content: {
     top: '50%',
@@ -24,6 +23,8 @@ export const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    padding: 0
+    padding: 0,
+    background: `${({ theme }) => theme.colors.background}`,
+
   }
 };

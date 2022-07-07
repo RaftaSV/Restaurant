@@ -1,15 +1,19 @@
 import useModal from 'Hooks/useModal';
 import {useTranslation} from 'react-i18next';
+import Button from 'components/Atoms/Button';
 import { useAppTheme } from 'context/AppTheme';
+import QR from 'components/Atoms/Icons/QRCode';
 import logo from 'components/Images/App/logo.png';
 import {useAppLanguage} from 'context/AppLanguaje';
 import English from 'components/Atoms/Flag/English';
 import Spanish from 'components/Atoms/Flag/Spanish';
-import {ModalMenu} from 'components/Molecules/Modals';
+import {ModalMenu, QRModal} from 'components/Molecules/Modals';
 import SunFilled from 'components/Atoms/Icons/SunFilled';
 import ButtonBurger from 'components/Atoms/ButtonBurguer';
 import MoonFilled from 'components/Atoms/Icons/MoonFilled';
 import {StyleImage, StyleItemLeft, StyleLanguage, StyleMenuItem, StyleMenuNavbar} from './style';
+
+
 
 
 const MenuNavbar = () => {
@@ -25,6 +29,8 @@ const MenuNavbar = () => {
   };
 
   const { visible, onToggle } = useModal();
+  const { visible: visibleQR, onToggle: onToggleQR  } = useModal();
+
   return (
     <>
       <StyleItemLeft>
@@ -33,6 +39,13 @@ const MenuNavbar = () => {
         loading="lazy"
         src={logo}/>
       </StyleItemLeft>
+      <Button color={'transparent'}
+        onClick={onToggleQR}
+
+      >
+        <QR/>
+      </Button>
+
       <StyleMenuNavbar>
         <StyleMenuItem
           color="transparent"
@@ -47,9 +60,9 @@ const MenuNavbar = () => {
           onClick={onChangeLanguage}>
           { localStorage.getItem('land') === 'en' ? <English /> : <Spanish />}
         </StyleLanguage>
-
       </StyleMenuNavbar>
       <ModalMenu onCancel={onToggle} visible={visible} />
+      <QRModal onCancel={onToggleQR} visible={visibleQR} />
     </>
 
   );

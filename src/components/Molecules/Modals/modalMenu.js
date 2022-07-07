@@ -1,8 +1,8 @@
-import Modal from 'components/Atoms/Modal';
-import {StyleCloseBtn, StyleMenuNavbar} from './style';
-import {useTranslation} from 'react-i18next';
-import {NavLink} from 'react-router-dom';
 import {ROUTES} from 'config';
+import {NavLink} from 'react-router-dom';
+import Modal from 'components/Atoms/Modal';
+import {useTranslation} from 'react-i18next';
+import {StyleCloseBtn, StyleMenuNavbar} from './style';
 import {StyleMenuItem} from 'components/Atoms/ButtonMenu/style';
 
 const ModalMenu = ({ visible, onCancel }) => {
@@ -32,8 +32,9 @@ const ModalMenu = ({ visible, onCancel }) => {
       contentStyle={{
         top: 26,
         left: -20,
-        width: '500px',
-        height: '562px',
+        width: '400px',
+        height: '100%',
+        background: `${({ theme }) => theme.colors.background}`,
       }}
     >
       <StyleCloseBtn onClick={onCancel} labelColor="text" color="shadowInput">
