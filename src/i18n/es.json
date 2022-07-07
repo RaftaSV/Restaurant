@@ -14,32 +14,66 @@
   "SpecialPlatter" :
   [
     {
-      "name": "Churrasco Mar Y Tierra",
-      "price": "$35.00",
-      "description": "Camarones, Arroz, Ensalada,  Aguacate,  Frijoles, Plátano, Carne De Res.",
-      "number": 1,
+      "name":"mar Y Tierra",
+      "price":"35.00",
+      "description":"Camarones, Arroz, Ensalada, Aguacate, Frijoles, Plátano, Carne De Res.",
+      "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1QW1LTct7jbyj8dsxfEXVZC85ivyhsIor"
     },
+
     {
-      "name": "lomo de cerdo",
-      "price": "$35.00",
-      "description": "Lomo De Cerdo, Arroz, Ensalada, Fríjoles.",
-      "number": 2,
+      "name":"lomo de cerdo",
+      "price":"18.00",
+      "description":"Lomo De Cerdo, Arroz, Ensalada, Fríjoles.",
+      "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
     },
+
     {
-      "name": "Bistec de Res",
-      "price": "$35.00",
-      "description": "Carne de res, arroz, frijoles, ensalada, aguacate.",
-      "number": 3,
+      "name":"Bistec de Res",
+      "price":"18.00",
+      "description":"Carne de res, arroz, frijoles, ensalada, aguacate.",
+      "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1YPVj8yOh8TK1PvtJ7prICXK9zcTj8Xum"
+    },
+
+
+
+    {
+      "name":"camarones al ajillo",
+      "price":"18.00",
+      "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     }
   ],
 
   "breakfastPlatters" : [{}],
   "chickenPlatters": [{}],
   "ricePlatters": [{}],
-  "typicalPlatter" : [{}],
+  "typicalPlatter" : [{
+    "name":"pupusas",
+    "price":"$8.00",
+    "description":"3 pupusas, salsa de tomate, curtido de repollo.",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
+  },
+
+    {
+      "name":"pupusas",
+      "price":"$2.50",
+      "description":"1 pupusas, salsa de tomate, curtido de repollo.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
+    },
+
+    {
+      "name":"Quesadilla Pollo o Res",
+      "price":"$15.00",
+      "description":"quesadilla de pollo o res, frijoles, arroz, ensalada.",
+      "number":"$3.00",
+      "image" : "https://drive.google.com/uc?export=view&id=1tjV4C2sgZ4QmIF7VSo0569JyRnBi5f62"
+    }],
   "SeaFoodPlatters": [{}],
   "KidsMenuPlatter": [{}],
   "beverage": [{}]
