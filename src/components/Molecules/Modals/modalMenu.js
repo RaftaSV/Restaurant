@@ -11,7 +11,7 @@ const ModalMenu = ({ visible, onCancel }) => {
   const Breakfast = t('breakfast');
   const Chicken = t('chicken');
   const rice = t('rice');
-  const seafood = t('SeaFood');
+  const seafood = t('Seafood');
   const KidsMenu = t('KidsMenu');
   const beverages = t('beverages');
   const typicalPlatters = t('typicalPlatters');
