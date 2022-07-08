@@ -3,23 +3,29 @@ import styled from 'styled-components';
 export const StyleWrapper = styled.div`
   background: ${({ theme }) => theme.colors.bgCard};
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding:4px;
-  margin-left: 5px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  height: 400px;
+  box-shadow: ${({ theme }) => theme.colors.boxShadow};
+  height: 450px;
+  margin-top: 60px;
+  @media screen and (min-width: 768px) {
+    margin-left: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 440px;
+
+  }
+
 
 
  `;
 
 export const StyleImage = styled.img`
+
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
 `;
 
 
@@ -28,10 +34,16 @@ export const StylePrice = styled.div`
   background-color: ${({ theme }) => theme.colors.price};
   transform: rotate(45deg);
   padding: 5px;
+  top: 30px;
   right: 20px;
   width: 60px;
   height: 60px;
-  top: 13px;
+  @media screen and (min-width: 768px) {
+    top: 11px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+  }
 `;
 export const StylePriceText = styled.div`
   position: absolute;
@@ -46,14 +58,19 @@ export const StyleNumber = styled.div`
   background-color: ${({ theme }) => theme.colors.price};
   border-radius: 60px;
   padding: 10px;
-  left: 30px;
-  top:8px;
   height: 40px;
   align-items: center;
+  left: 30px;
+  top:40px;
+  @media screen and (min-width: 768px) {
+    left: 30px;
+    top:8px;
+  }
 `;
 
 export const  StyleDescription = styled.div`
   display: flex;
   width: auto;
-  text-align: justify;
+  height: 50%;
+  align-content: center;
 `;
