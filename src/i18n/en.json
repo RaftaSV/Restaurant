@@ -14,7 +14,7 @@
   "SpecialPlatter" :
   [
     {
-      "name":"sea and land",
+      "name":"sea ​​and land",
       "price":"35.00",
       "description":"Shrimp, rice, salad, avocado, beans, banana, beef.",
       "number":"1",
@@ -25,7 +25,7 @@
       "name":"pig loin",
       "price":"18.00",
       "description":"Pork tenderloin, rice, salad, beans.",
-      "number":"two",
+      "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
     },
 
@@ -33,21 +33,52 @@
       "name":"Beef steak",
       "price":"18.00",
       "description":"Res, rice, beans, salad, avocado.",
-      "number":"two",
+      "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1YPVj8yOh8TK1PvtJ7prICXK9zcTj8Xum"
     },
-
 
     {
       "name":"garlic shrimp",
       "price":"18.00",
-      "description":"garlic shrimp, rice, beans and salad.",
-      "number":"two",
+      "description":"Ajillo shrimp, rice, beans and salad.",
+      "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     }
   ],
-  "breakfastPlatters" : [{}],
-  "chickenPlatters": [{}],
+  "breakfastPlatters" : [
+    {
+      "name":"Breakfast 1",
+      "price":"$ 14.00",
+      "description":"Bean, cream, avocado, cheese, banana",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
+    }
+  ],
+  "chickenPlatters": [
+    {
+      "name":"FRIED CHICKEN",
+      "price":"$ 15.00",
+      "description":"Fried chicken, rice, beans, potatoes, avocado",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1-0Vkn9sHYu11d93bBUrLKjeiQnQN-uFG"
+    },
+
+    {
+      "name":"CHICKEN IN CREAM",
+      "price":"$ 15.00",
+      "description":"Cream breast and jalapeño",
+      "number":"two",
+      "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
+    },
+
+    {
+      "name":"CHICKEN WINGS",
+      "price":"$ 12.00",
+      "description":"Chicken wings, rice, beans, avocado salad.",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
+    }
+  ],
   "ricePlatters": [{}],
   "typicalPlatter" : [
     {
@@ -75,7 +106,15 @@
     }
   ],
   "SeaFoodPlatters": [{}],
-  "KidsMenuPlatter": [{}],
+  "KidsMenuPlatter": [
+    {
+    "name":"chicken nugget",
+    "price":"12.00",
+    "description":"Chicken nugget, potatoes",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
+  }
+  ],
   "beverage": [{}]
 
 }

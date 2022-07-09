@@ -14,7 +14,7 @@
   "SpecialPlatter" :
   [
     {
-      "name":"Mar y tierra",
+      "name":"mar Y Tierra",
       "price":"35.00",
       "description":"Camarones, Arroz, Ensalada, Aguacate, Frijoles, Plátano, Carne De Res.",
       "number":"1",
@@ -33,23 +33,51 @@
       "name":"Bistec de Res",
       "price":"18.00",
       "description":"Carne de res, arroz, frijoles, ensalada, aguacate.",
-      "number":"2",
+      "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1YPVj8yOh8TK1PvtJ7prICXK9zcTj8Xum"
     },
-
-
 
     {
       "name":"camarones al ajillo",
       "price":"18.00",
       "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
-      "number":"2",
+      "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     }
   ],
 
-  "breakfastPlatters" : [{}],
-  "chickenPlatters": [{}],
+  "breakfastPlatters" : [{
+    "name":"Desayuno 1",
+    "price":"$14.00",
+    "description":"Frijoles, crema, aguacate, queso, plátano",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
+  }
+  ],
+  "chickenPlatters": [{
+    "name":"POLLO FRITO",
+    "price":"$15.00",
+    "description":"Pollo frito, arroz, frijoles, papas, aguacate",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1-0Vkn9sHYu11d93bBUrLKjeiQnQN-uFG"
+  },
+
+    {
+      "name":"POLLO EN CREMA",
+      "price":"$15.00",
+      "description":"Pechuga en crema y jalapeño",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
+    },
+
+    {
+      "name":"ALITAS DE POLLO",
+      "price":"$12.00",
+      "description":"Alitas de pollo, arroz, frijoles, ensalada aguacate.",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
+    }
+  ],
   "ricePlatters": [{}],
   "typicalPlatter" : [{
     "name":"pupusas",
@@ -73,9 +101,17 @@
       "description":"quesadilla de pollo o res, frijoles, arroz, ensalada.",
       "number":"$3.00",
       "image" : "https://drive.google.com/uc?export=view&id=1tjV4C2sgZ4QmIF7VSo0569JyRnBi5f62"
-    }],
+    }
+  ],
   "SeaFoodPlatters": [{}],
-  "KidsMenuPlatter": [{}],
+  "KidsMenuPlatter": [{
+    "name":"Nugget de pollo",
+    "price":"12.00",
+    "description":"Nugget de pollo, papas",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
+  }
+  ],
   "beverage": [{}]
 
 }
