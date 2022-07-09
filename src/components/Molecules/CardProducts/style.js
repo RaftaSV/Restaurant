@@ -5,7 +5,7 @@ export const StyleWrapper = styled.div`
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.colors.boxShadow};
   height: 450px;
-  margin-top: 60px;
+  margin-top: 160px;
   @media screen and (min-width: 768px) {
     margin-left: 5px;
     margin-top: 30px;
@@ -22,7 +22,6 @@ export const StyleWrapper = styled.div`
  `;
 
 export const StyleImage = styled.img`
-
   width: 100%;
   display: flex;
   margin-top: 30px;
@@ -34,7 +33,7 @@ export const StylePrice = styled.div`
   background-color: ${({ theme }) => theme.colors.price};
   transform: rotate(45deg);
   padding: 5px;
-  top: 30px;
+  top: 130px;
   right: 20px;
   width: 60px;
   height: 60px;
@@ -61,7 +60,7 @@ export const StyleNumber = styled.div`
   height: 40px;
   align-items: center;
   left: 30px;
-  top:40px;
+  top:130px;
   @media screen and (min-width: 768px) {
     left: 30px;
     top:8px;
