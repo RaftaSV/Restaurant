@@ -69,8 +69,6 @@ export const StyleNumber = styled.div`
 `;
 
 export const  StyleDescription = styled.div`
-  display: flex;
-  width: auto;
+  width: 100%;
   height: 50%;
-  align-content: center;
 `;

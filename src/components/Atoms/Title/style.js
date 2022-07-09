@@ -5,5 +5,4 @@ export const StyleTitle = styled.h2`
   line-height: ${({ $lineHeight }) => $lineHeight}px;
   color: ${({ theme, $color }) => theme.colors[$color]};
   text-align: center;
-  align-content: center;
 `;

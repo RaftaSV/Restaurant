@@ -14,7 +14,7 @@
   "SpecialPlatter" :
   [
     {
-      "name":"sea ​​and land",
+      "name":"sea and land",
       "price":"35.00",
       "description":"Shrimp, rice, salad, avocado, beans, banana, beef.",
       "number":"1",
@@ -57,7 +57,7 @@
   "chickenPlatters": [
     {
       "name":"FRIED CHICKEN",
-      "price":"$ 15.00",
+      "price":"$15.00",
       "description":"Fried chicken, rice, beans, potatoes, avocado",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1-0Vkn9sHYu11d93bBUrLKjeiQnQN-uFG"
@@ -65,7 +65,7 @@
 
     {
       "name":"CHICKEN IN CREAM",
-      "price":"$ 15.00",
+      "price":"$15.00",
       "description":"Cream breast and jalapeño",
       "number":"two",
       "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
@@ -73,7 +73,7 @@
 
     {
       "name":"CHICKEN WINGS",
-      "price":"$ 12.00",
+      "price":"$12.00",
       "description":"Chicken wings, rice, beans, avocado salad.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
@@ -83,7 +83,7 @@
   "typicalPlatter" : [
     {
       "name":"Pupusas",
-      "price":"$ 8.00",
+      "price":"$8.00",
       "description":"3 pupusas, tomato sauce, cabbage tan.",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
@@ -91,7 +91,7 @@
 
     {
       "name":"Pupusas",
-      "price":"$ 2.50",
+      "price":"$2.50",
       "description":"1 pupusas, tomato sauce, cabbage tan.",
       "number":"two",
       "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
@@ -99,9 +99,9 @@
 
     {
       "name":"Chest chicken or beef",
-      "price":"$ 15.00",
+      "price":"$15.00",
       "description":"chicken or beef quesadilla, beans, rice, salad.",
-      "number":"$ 3.00",
+      "number":"$3.00",
       "image" : "https://drive.google.com/uc?export=view&id=1tjV4C2sgZ4QmIF7VSo0569JyRnBi5f62"
     }
   ],
@@ -109,7 +109,7 @@
   "KidsMenuPlatter": [
     {
     "name":"chicken nugget",
-    "price":"12.00",
+    "price":"$12.00",
     "description":"Chicken nugget, potatoes",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
