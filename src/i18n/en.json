@@ -48,7 +48,7 @@
   "breakfastPlatters" : [
     {
       "name":"Breakfast 1",
-      "price":"$ 14.00",
+      "price":"$14.00",
       "description":"Bean, cream, avocado, cheese, banana",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
