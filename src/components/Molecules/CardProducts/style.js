@@ -33,12 +33,12 @@ export const StylePrice = styled.div`
   background-color: ${({ theme }) => theme.colors.price};
   transform: rotate(45deg);
   padding: 5px;
-  top: 130px;
+  top: 120px;
   right: 20px;
   width: 60px;
   height: 60px;
   @media screen and (min-width: 768px) {
-    top: 11px;
+    top: 10px;
     right: 20px;
     width: 60px;
     height: 60px;
