@@ -11,11 +11,10 @@
   "Seafood": "Mariscos",
   "KidsMenu": "Menú para niños",
   "beverages": "Bebidas",
-  "SpecialPlatter" :
-  [
+  "SpecialPlatter" : [
     {
       "name":"mar Y Tierra",
-      "price":"35.00",
+      "price":"$35.00",
       "description":"Camarones, Arroz, Ensalada, Aguacate, Frijoles, Plátano, Carne De Res.",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1QW1LTct7jbyj8dsxfEXVZC85ivyhsIor"
@@ -23,7 +22,7 @@
 
     {
       "name":"lomo de cerdo",
-      "price":"18.00",
+      "price":"$18.00",
       "description":"Lomo De Cerdo, Arroz, Ensalada, Fríjoles.",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1F8kT3CKnm-dpxkAiiqiojpwVNSEonNlY"
@@ -31,7 +30,7 @@
 
     {
       "name":"Bistec de Res",
-      "price":"18.00",
+      "price":"$18.00",
       "description":"Carne de res, arroz, frijoles, ensalada, aguacate.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1YPVj8yOh8TK1PvtJ7prICXK9zcTj8Xum"
@@ -39,28 +38,29 @@
 
     {
       "name":"camarones al ajillo",
-      "price":"18.00",
+      "price":"$18.00",
       "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     }
   ],
-
-  "breakfastPlatters" : [{
-    "name":"Desayuno 1",
-    "price":"$14.00",
-    "description":"Frijoles, crema, aguacate, queso, plátano",
-    "number":"1",
-    "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
-  }
+  "breakfastPlatters" : [
+    {
+      "name":"Desayuno 1",
+      "price":"$14.00",
+      "description":"Frijoles, crema, aguacate, queso, plátano",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
+    }
   ],
-  "chickenPlatters": [{
-    "name":"POLLO FRITO",
-    "price":"$15.00",
-    "description":"Pollo frito, arroz, frijoles, papas, aguacate",
-    "number":"1",
-    "image" : "https://drive.google.com/uc?export=view&id=1-0Vkn9sHYu11d93bBUrLKjeiQnQN-uFG"
-  },
+  "chickenPlatters": [
+    {
+      "name":"POLLO FRITO",
+      "price":"$15.00",
+      "description":"Pollo frito, arroz, frijoles, papas, aguacate",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1-0Vkn9sHYu11d93bBUrLKjeiQnQN-uFG"
+    },
 
     {
       "name":"POLLO EN CREMA",
@@ -76,31 +76,55 @@
       "description":"Alitas de pollo, arroz, frijoles, ensalada aguacate.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
-    }
+    },
+
   ],
   "ricePlatters": [{}],
-  "typicalPlatter" : [{
-    "name":"pupusas",
-    "price":"$8.00",
-    "description":"3 pupusas, salsa de tomate, curtido de repollo.",
-    "number":"1",
-    "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
-  },
-
-    {
+  "typicalPlatter" : [
+        {
       "name":"pupusas",
       "price":"$2.50",
       "description":"1 pupusas, salsa de tomate, curtido de repollo.",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
     },
-
+    {
+      "name":"pupusas",
+      "price":"$8.00",
+      "description":"3 pupusas, salsa de tomate, curtido de repollo.",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
+    },
     {
       "name":"Quesadilla Pollo o Res",
       "price":"$15.00",
       "description":"quesadilla de pollo o res, frijoles, arroz, ensalada.",
-      "number":"$3.00",
+      "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1tjV4C2sgZ4QmIF7VSo0569JyRnBi5f62"
+    },
+
+    {
+      "name":"PICADA",
+      "price":"$25.00",
+      "description":"Alitas, yuca, tostones y chicharrón",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=1-JOSEqGEKOYmfxrYTuPSnCNuVwJrAksp"
+    },
+
+    {
+      "name":"PICADA",
+      "price":"$35.00",
+      "description":"Alitas, yuca, tostones y chicharrón",
+      "number":"5",
+      "image" : "https://drive.google.com/uc?export=view&id=1-JOSEqGEKOYmfxrYTuPSnCNuVwJrAksp"
+    },
+
+    {
+      "name":"PICADA",
+      "price":"$75.00",
+      "description":"Alitas, yuca, tostones y chicharrón",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=1-JOSEqGEKOYmfxrYTuPSnCNuVwJrAksp"
     }
   ],
   "SeaFoodPlatters": [{}],
@@ -110,8 +134,7 @@
     "description":"Nugget de pollo, papas",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
-  }
-  ],
+    }],
   "beverage": [{}]
 
 }
