@@ -34,6 +34,10 @@ export const ROUTES = {
     path: 'beverages',
     absolutePath: '/beverages'
   },
+  CONTACT: {
+    path: 'Contact',
+    absolutePath: 'Contact'
+  },
   NOTFOUND: {
     path: 'NotFound',
     absolutePath: 'NotFound'

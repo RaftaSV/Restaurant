@@ -1,9 +1,11 @@
 import {ROUTES} from 'config';
-import {NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 import Modal from 'components/Atoms/Modal';
 import {useTranslation} from 'react-i18next';
 import {StyleCloseBtn, StyleMenuNavbar} from './style';
 import {StyleMenuItem} from 'components/Atoms/ButtonMenu/style';
+import LinkedIn from '../../Atoms/Icons/LinkdIn';
+import Button from '../../Atoms/Button';
 
 const ModalMenu = ({ visible, onCancel }) => {
   const {t} = useTranslation();
@@ -24,6 +26,10 @@ const ModalMenu = ({ visible, onCancel }) => {
       </NavLink>
     );
   };
+  const redirectTo = () => {
+    window.location = 'https://www.linkedin.com/in/rafael-portillo-8a9707205/';
+  }
+
 
   return (
     <Modal
@@ -49,6 +55,7 @@ const ModalMenu = ({ visible, onCancel }) => {
         <LinkMenu to={ROUTES.KIDS.absolutePath}> {KidsMenu} </LinkMenu>
         <LinkMenu to={ROUTES.TYPICAL.absolutePath}> {typicalPlatters} </LinkMenu>
         <LinkMenu to={ROUTES.BEVERAGES.absolutePath}> {beverages} </LinkMenu>
+        <Button onClick={()=> redirectTo()} color={'transparent'}> <LinkedIn/></Button>
       </StyleMenuNavbar>
     </Modal>
   );
