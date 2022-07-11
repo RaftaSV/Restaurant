@@ -165,7 +165,21 @@
     "description":"soursop drink",
     "number":"1",
     "image" : "https://mui.today/export/sites/mui/img/2020/08/11/jugo-guana.png_403854007.png"
-  }
+  },
+    {
+      "name":"cashew",
+      "price":"$ 3.00",
+      "description":"cashew nut drink",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=1-cwZ15ATPkoo0-0ZO81K6nDZGj4fxVrk"
+    },
+    {
+      "name":"passion fruit",
+      "price":"$3.00",
+      "description":"passion fruit drink",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=1-qKs2XFFUsuGasSIpxvzb8gPEj2AMkKd"
+    }
   ]
 
 }

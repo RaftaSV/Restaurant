@@ -159,12 +159,26 @@
     }],
   "beverage": [
     {
-    "name":"Guanábana",
-    "price":"$3.00",
-    "description":"refresco de guanábana",
-    "number":"1",
-    "image" : "https://drive.google.com/uc?export=view&id=https://mui.today/export/sites/mui/img/2020/08/11/jugo-guana.png_403854007.png"
-  }
+      "name":"Guanábana",
+      "price":"$3.00",
+      "description":"refresco de Guanábana",
+      "number":"1",
+      "image" : "https://drive.google.com/uc?export=view&id=1-asVgUnflQFJUWACaU2HK9mQ-3cVLQoh"
+    },
+    {
+      "name":"marañón",
+      "price":"$3.00",
+      "description":"Refresco de marañón",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=1-cwZ15ATPkoo0-0ZO81K6nDZGj4fxVrk"
+    },
+    {
+      "name":"maracuyá",
+      "price":"$3.00",
+      "description":"Refresco de marañón",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=1-qKs2XFFUsuGasSIpxvzb8gPEj2AMkKd"
+    }
   ]
 
 }
