@@ -29,7 +29,7 @@
     },
 
     {
-      "name":"Beef steak",
+      "name":"steak with onion",
       "price":"$18.00",
       "description":"Res, rice, beans, salad, avocado.",
       "number":"3",
@@ -39,9 +39,17 @@
     {
       "name":"garlic shrimp",
       "price":"$18.00",
-      "description":"Ajillo shrimp, rice, beans and salad.",
+      "description":"garlic shrimp, rice, beans and salad.",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
+    },
+
+    {
+      "name":"grilled meat",
+      "price":"$ 18.00",
+      "description":"roasted meat, rice, salad, beans and cheese",
+      "number":"5",
+      "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
     }
   ],
   "breakfastPlatters" : [
@@ -79,8 +87,14 @@
     }
   ],
   "ricePlatters": [
-
-    {}],
+    {
+    "name":"Cantonese rice",
+    "price":"$ 18.00",
+    "description":"Cantonese rice, flat, avocado",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
+  }
+  ],
   "typicalPlatter" : [
     {
       "name":"Pupusas",
@@ -127,6 +141,13 @@
       "description":"Wings, Yucca, Tostones and Pors Rinds",
       "number":"6",
       "image" : "https://drive.google.com/uc?export=view&id=1-JOSEqGEKOYmfxrYTuPSnCNuVwJrAksp"
+    },
+    {
+      "name":"Chicken tacos",
+      "price":"$ 18.00",
+      "description":"Golden chicken tacos, accompanied with dressing and cabbage",
+      "number":"7",
+      "image" : "https://drive.google.com/uc?export=view&id=1-L_5dOjhdIt58g81viO6CtQIWvr56jEs"
     }
   ],
   "SeaFoodPlatters": [{}],

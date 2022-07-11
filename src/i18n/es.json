@@ -29,7 +29,7 @@
     },
 
     {
-      "name":"Bistec de Res",
+      "name":"Bistec encebollado",
       "price":"$18.00",
       "description":"Carne de res, arroz, frijoles, ensalada, aguacate.",
       "number":"3",
@@ -42,6 +42,13 @@
       "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
+    },
+    {
+      "name":"Carne azada ",
+      "price":"$18.00",
+      "description":"Carne asada arroz ensalada frijoles y queso",
+      "number":"5",
+      "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
     }
   ],
   "breakfastPlatters" : [
@@ -79,7 +86,15 @@
     }
 
   ],
-  "ricePlatters": [{}],
+  "ricePlatters": [
+    {
+    "name":"Arroz cantonés",
+    "price":"$18.00",
+    "description":"Arroz cantonés, plano, aguacate",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
+  }
+  ],
   "typicalPlatter" : [
         {
       "name":"pupusas",
@@ -125,6 +140,13 @@
       "description":"Alitas, yuca, tostones y chicharrón",
       "number":"6",
       "image" : "https://drive.google.com/uc?export=view&id=1-JOSEqGEKOYmfxrYTuPSnCNuVwJrAksp"
+    },
+    {
+      "name":"Tacos de Pollo",
+      "price":"$18.00",
+      "description":"Tacos dorados de pollo, acompañado con aderezo y repollo",
+      "number":"7",
+      "image" : "https://drive.google.com/uc?export=view&id=1-L_5dOjhdIt58g81viO6CtQIWvr56jEs"
     }
   ],
   "SeaFoodPlatters": [{}],
