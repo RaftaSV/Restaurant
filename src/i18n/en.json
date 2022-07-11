@@ -158,6 +158,14 @@
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
   }],
-  "beverage": [{}]
+  "beverage": [
+    {
+    "name":"Soursop",
+    "price":"$ 3.00",
+    "description":"soursop drink",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=https://mui.today/export/sites/mui/img/2020/08/11/jugo-guana.png_403854007.png"
+  }
+  ]
 
 }
