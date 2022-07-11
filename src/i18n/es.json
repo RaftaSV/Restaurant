@@ -58,6 +58,20 @@
       "description":"Frijoles, crema, aguacate, queso, plátano",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
+    },
+    {
+      "name":"Desayuno 3",
+      "price":"$18.00",
+      "description":"Frijoles, queso, crema, aguacate, carne",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=10Lju5o4r4a4IUu9IgOXLsvHE8x59nulG"
+    },
+    {
+      "name":"Desayuno 4",
+      "price":"$14.00",
+      "description":"Plátano frito, huevo en salsa, aguacate, crema, queso",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=10KOHabKnsfhbhWzvbHNItcN1RF6ymgj1"
     }
   ],
   "chickenPlatters": [
@@ -143,10 +157,17 @@
     },
     {
       "name":"Tacos de Pollo",
-      "price":"$18.00",
+      "price":"$14.00",
       "description":"Tacos dorados de pollo, acompañado con aderezo y repollo",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=1-L_5dOjhdIt58g81viO6CtQIWvr56jEs"
+    },
+    {
+      "name":"Bandeja Típica Hondureña.",
+      "price":"$25.00",
+      "description":"Tamal de elote, plátano frito, aguacate, arroz, frijol.",
+      "number":"8",
+      "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
     }
   ],
   "SeaFoodPlatters": [{}],
@@ -206,7 +227,15 @@
       "description":"drink of nance",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=10J9RiBm1fdXHYt_brdixsfYXTAOxNHsS"
+    },
+    {
+      "name":"té",
+      "price":"$3.00",
+      "description":"té",
+      "number":"8",
+      "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
     }
+
   ]
 
 }

@@ -59,6 +59,20 @@
       "description":"Bean, cream, avocado, cheese, banana",
       "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1mLlECLWiRT93_EPOOvJp1g94CHa12yUi"
+    },
+    {
+      "name":"Breakfast 3",
+      "price":"$ 18.00",
+      "description":"Bean, cheese, cream, avocado, meat",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=10Lju5o4r4a4IUu9IgOXLsvHE8x59nulG"
+    },
+    {
+      "name":"Breakfast 4",
+      "price":"$14.00",
+      "description":"Fried banana, salsa egg, avocado, cream, cheese",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=10KOHabKnsfhbhWzvbHNItcN1RF6ymgj1"
     }
   ],
   "chickenPlatters": [
@@ -144,10 +158,17 @@
     },
     {
       "name":"Chicken tacos",
-      "price":"$ 18.00",
+      "price":"$ 14.00",
       "description":"Golden chicken tacos, accompanied with dressing and cabbage",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=1-L_5dOjhdIt58g81viO6CtQIWvr56jEs"
+    },
+    {
+      "name":"Honduran typical tray",
+      "price":"$ 25.00",
+      "description":"Elote tamal, fried banana, avocado, rice, beans.",
+      "number":"8",
+      "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
     }
   ],
   "SeaFoodPlatters": [{}],
@@ -207,6 +228,13 @@
       "description":"Drink of Nance",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=10J9RiBm1fdXHYt_brdixsfYXTAOxNHsS"
+    },
+    {
+      "name":"tea",
+      "price":"$ 3.00",
+      "description":"tea",
+      "number":"8",
+      "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
     }
   ]
 
