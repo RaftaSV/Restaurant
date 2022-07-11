@@ -133,7 +133,7 @@
   "KidsMenuPlatter":  [{
     "name":"chicken nugget",
     "price":"$12.00",
-    "description":"Chicken nugget, potatoes",
+    "description":"Chicken nugget, potato chips",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
   }],
