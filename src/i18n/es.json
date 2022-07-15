@@ -72,6 +72,13 @@
       "description":"Plátano frito, huevo en salsa, aguacate, crema, queso",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=10KOHabKnsfhbhWzvbHNItcN1RF6ymgj1"
+    },
+    {
+      "name":"Basic breakfast",
+      "price":"$10.00",
+      "description":"Bean, cream and fried banana.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ggf7G2z5If40LpKAwvh4Dvn0XRAYuB_"
     }
   ],
   "chickenPlatters": [
@@ -85,7 +92,7 @@
 
     {
       "name":"POLLO EN CREMA",
-      "price":"$15.00",
+      "price":"$18.00",
       "description":"Pechuga en crema y jalapeño",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
@@ -107,7 +114,14 @@
     "description":"Arroz cantonés, plano, aguacate",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
-  }
+  },
+    {
+      "name":"Arroz con camarón",
+      "price":"$18.00",
+      "description":"Huevo, arroz, camarón, plátano frito.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=10ir-gc8AlN0l47blZjwE-33Fe4dP6eXB"
+    }
   ],
   "typicalPlatter" : [
         {
@@ -168,6 +182,13 @@
       "description":"Tamal de elote, plátano frito, aguacate, arroz, frijol.",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
+    },
+    {
+      "name":"Quesadilla ",
+      "price":"$5.00",
+      "description":"Quesadilla sencilla $4.00, con carne $5.00",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=10a7csH6ppPLr7ZnNkgU_Gn3PbJQyNmoo"
     }
   ],
   "SeaFoodPlatters": [{}],
