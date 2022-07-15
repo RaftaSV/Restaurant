@@ -114,14 +114,14 @@
       "name":"pupusas",
       "price":"$2.50",
       "description":"1 pupusas, salsa de tomate, curtido de repollo.",
-      "number":"2",
+      "number":"1",
       "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
     },
     {
       "name":"pupusas",
       "price":"$8.00",
       "description":"3 pupusas, salsa de tomate, curtido de repollo.",
-      "number":"1",
+      "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1wo0Xj1dUjzZT-4kZVL6sQDDfweLsKxaR"
     },
     {
@@ -173,7 +173,7 @@
   "SeaFoodPlatters": [{}],
   "KidsMenuPlatter": [{
     "name":"Nugget de pollo",
-    "price":"12.00",
+    "price":"$12.00",
     "description":"Nugget de pollo, papas fritas",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"

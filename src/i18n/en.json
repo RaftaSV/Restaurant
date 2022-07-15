@@ -13,7 +13,7 @@
   "beverages": "Beverages",
   "SpecialPlatter" :  [
     {
-      "name":"sea ​​and land",
+      "name":"sea and land",
       "price":"$35.00",
       "description":"Shrimp, rice, salad, avocado, beans, banana, beef.",
       "number":"1",
@@ -46,7 +46,7 @@
 
     {
       "name":"grilled meat",
-      "price":"$ 18.00",
+      "price":"$18.00",
       "description":"roasted meat, rice, salad, beans and cheese",
       "number":"5",
       "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
@@ -62,7 +62,7 @@
     },
     {
       "name":"Breakfast 3",
-      "price":"$ 18.00",
+      "price":"$18.00",
       "description":"Bean, cheese, cream, avocado, meat",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=10Lju5o4r4a4IUu9IgOXLsvHE8x59nulG"
@@ -103,7 +103,7 @@
   "ricePlatters": [
     {
     "name":"Cantonese rice",
-    "price":"$ 18.00",
+    "price":"$18.00",
     "description":"Cantonese rice, flat, avocado",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
@@ -158,14 +158,14 @@
     },
     {
       "name":"Chicken tacos",
-      "price":"$ 14.00",
+      "price":"$14.00",
       "description":"Golden chicken tacos, accompanied with dressing and cabbage",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=1-L_5dOjhdIt58g81viO6CtQIWvr56jEs"
     },
     {
       "name":"Honduran typical tray",
-      "price":"$ 25.00",
+      "price":"$25.00",
       "description":"Elote tamal, fried banana, avocado, rice, beans.",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
@@ -182,14 +182,14 @@
   "beverage": [
     {
     "name":"Soursop",
-    "price":"$ 3.00",
+    "price":"$3.00",
     "description":"soursop drink",
     "number":"1",
     "image" : "https://mui.today/export/sites/mui/img/2020/08/11/jugo-guana.png_403854007.png"
   },
     {
       "name":"cashew",
-      "price":"$ 3.00",
+      "price":"$3.00",
       "description":"cashew nut drink",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1-cwZ15ATPkoo0-0ZO81K6nDZGj4fxVrk"
@@ -203,21 +203,21 @@
     },
     {
       "name":"Blackberry",
-      "price":"$ 3.00",
+      "price":"$3.00",
       "description":"blackberry soda",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=1-v2Reef4FhKVCx4efHVZaqnXEy3OG4Mp"
     },
     {
       "name":"tamarind",
-      "price":"$ 3.00",
+      "price":"$3.00",
       "description":"Tamarindo drink",
       "number":"5",
       "image" : "https://drive.google.com/uc?export=view&id=1-v95yx8UgzgcRCK3QQ-N6RJfHrKp8kvB"
     },
     {
       "name":"horchata",
-      "price":"$ 3.00",
+      "price":"$3.00",
       "description":"Horchata soda",
       "number":"6",
       "image" : "https://drive.google.com/uc?export=view&id=10ESn5wPtOnX1OXL_n6DwFosivbyWOf8l"
@@ -231,7 +231,7 @@
     },
     {
       "name":"tea",
-      "price":"$ 3.00",
+      "price":"$3.00",
       "description":"tea",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
