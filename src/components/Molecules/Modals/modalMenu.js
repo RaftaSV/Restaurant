@@ -4,8 +4,8 @@ import Modal from 'components/Atoms/Modal';
 import {useTranslation} from 'react-i18next';
 import {StyleCloseBtn, StyleMenuNavbar} from './style';
 import {StyleMenuItem} from 'components/Atoms/ButtonMenu/style';
-import LinkedIn from '../../Atoms/Icons/LinkdIn';
-import Button from '../../Atoms/Button';
+import LinkedIn from 'components/Atoms/Icons/LinkdIn';
+import Button from 'components/Atoms/Button';
 
 const ModalMenu = ({ visible, onCancel }) => {
   const {t} = useTranslation();
@@ -27,7 +27,7 @@ const ModalMenu = ({ visible, onCancel }) => {
     );
   };
   const redirectTo = () => {
-    window.location = 'https://www.linkedin.com/in/rafael-portillo-8a9707205/';
+    window.location = 'https://mobile.twitter.com/rafapamate/';
   }
 
 
