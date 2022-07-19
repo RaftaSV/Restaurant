@@ -50,6 +50,12 @@
       "description":"roasted meat, rice, salad, beans and cheese",
       "number":"5",
       "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
+    },{
+      "name":"Meat salad",
+      "price":"$18.00",
+      "description":"grilled breast, lettuce, tomato and cucumber salad.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ro5gynDI3Pm1x4VHOEn3PDnI-gMVCoL"
     }
   ],
   "breakfastPlatters" : [
@@ -79,7 +85,7 @@
       "price":"$10.00",
       "description":"Bean, cream and fried banana.",
       "number":"6",
-      "image" : "https://drive.google.com/uc?export=1view&id=0ggf7G2z5If40LpKAwvh4Dvn0XRAYuB_"
+      "image" : "https://drive.google.com/uc?export=view&id=10ggf7G2z5If40LpKAwvh4Dvn0XRAYuB_"
     }
   ],
   "chickenPlatters": [
@@ -105,6 +111,13 @@
       "description":"Chicken wings, rice, beans, avocado salad.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
+    },
+    {
+      "name":"Ensalada de pechuga",
+      "price":"$15.00",
+      "description":"pechuga a la plancha,ensalada de lechuga, tomate y pepino.",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=10loAkzFhQNZ9PgpJfuAsNTbkIGTRXrmi"
     }
   ],
   "ricePlatters": [
@@ -192,7 +205,14 @@
       "image" : "https://drive.google.com/uc?export=view&id=10a7csH6ppPLr7ZnNkgU_Gn3PbJQyNmoo"
     }
   ],
-  "SeaFoodPlatters": [{}],
+  "SeaFoodPlatters": [{
+    "name":"grilled shrimp",
+    "price":"$18.00",
+    "description":"Grilled shrimp, rice, beans, salad.",
+    "number":"2",
+    "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
+  }
+  ],
   "KidsMenuPlatter":  [{
     "name":"chicken nugget",
     "price":"$12.00",
