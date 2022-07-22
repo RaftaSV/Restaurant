@@ -56,6 +56,13 @@
       "description":"pechuga a la plancha,ensalada de lechuga, tomate y pepino.",
       "number":"6",
       "image" : "https://drive.google.com/uc?export=view&id=10ro5gynDI3Pm1x4VHOEn3PDnI-gMVCoL"
+    },
+    {
+      "name":"Churrasco básico",
+      "price":"$25.00",
+      "description":"arroz, ensalada, frijoles, aguacate, plátano frito, carne de res",
+      "number":"7",
+      "image" : "https://drive.google.com/uc?export=view&id=10w_Vgg0iUqkWHLp82jOpVRtRum0uIFCy"
     }
   ],
   "breakfastPlatters" : [
@@ -265,7 +272,7 @@
     {
       "name":"Nance",
       "price":"$3.00",
-      "description":"drink of nance",
+      "description":"bebida de nance",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=10J9RiBm1fdXHYt_brdixsfYXTAOxNHsS"
     },
@@ -275,8 +282,29 @@
       "description":"té",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
-    }
+    },{
+      "name":"Licuado de guanábana",
+      "price":"$8.00",
+      "description":"Licuado de guanábana",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=113ujKXaVaadNggK7M8vEkgYDAC1LBa48"
+    },
 
+    {
+      "name":"Licuado de maracuyá",
+      "price":"$8.00",
+      "description":"Licuado de maracuyá",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11D2zlORIa8SsOcMRdW9RgHi5KxRT7kcR"
+    },
+
+    {
+      "name":"Licuado de papaya",
+      "price":"$8.00",
+      "description":"Licuado de papaya",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11PJpwOlt0TX8OeGtJyR5XUXKUybbQNFM"
+    }
   ]
 
 }
