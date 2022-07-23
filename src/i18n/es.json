@@ -49,6 +49,20 @@
       "description":"Carne asada arroz ensalada frijoles y queso",
       "number":"5",
       "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
+    },
+    {
+      "name":"Ensalada de carne",
+      "price":"$18.00",
+      "description":"pechuga a la plancha,ensalada de lechuga, tomate y pepino.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ro5gynDI3Pm1x4VHOEn3PDnI-gMVCoL"
+    },
+    {
+      "name":"Churrasco básico",
+      "price":"$25.00",
+      "description":"arroz, ensalada, frijoles, aguacate, plátano frito, carne de res",
+      "number":"7",
+      "image" : "https://drive.google.com/uc?export=view&id=10w_Vgg0iUqkWHLp82jOpVRtRum0uIFCy"
     }
   ],
   "breakfastPlatters" : [
@@ -72,6 +86,13 @@
       "description":"Plátano frito, huevo en salsa, aguacate, crema, queso",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=10KOHabKnsfhbhWzvbHNItcN1RF6ymgj1"
+    },
+    {
+      "name":"desayuno basico",
+      "price":"$10.00",
+      "description":"Frijol, crema y plátano frito.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ggf7G2z5If40LpKAwvh4Dvn0XRAYuB_"
     }
   ],
   "chickenPlatters": [
@@ -85,7 +106,7 @@
 
     {
       "name":"POLLO EN CREMA",
-      "price":"$15.00",
+      "price":"$18.00",
       "description":"Pechuga en crema y jalapeño",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
@@ -97,8 +118,14 @@
       "description":"Alitas de pollo, arroz, frijoles, ensalada aguacate.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
+    },
+    {
+      "name":"Breast salad",
+      "price":"$15.00",
+      "description":"grilled breast, lettuce, tomato and cucumber salad.",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=10loAkzFhQNZ9PgpJfuAsNTbkIGTRXrmi"
     }
-
   ],
   "ricePlatters": [
     {
@@ -107,7 +134,14 @@
     "description":"Arroz cantonés, plano, aguacate",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
-  }
+  },
+    {
+      "name":"Arroz con camarón",
+      "price":"$18.00",
+      "description":"Huevo, arroz, camarón, plátano frito.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=10ir-gc8AlN0l47blZjwE-33Fe4dP6eXB"
+    }
   ],
   "typicalPlatter" : [
         {
@@ -168,9 +202,23 @@
       "description":"Tamal de elote, plátano frito, aguacate, arroz, frijol.",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
+    },
+    {
+      "name":"Quesadilla ",
+      "price":"$5.00",
+      "description":"Quesadilla sencilla $4.00, con carne $5.00",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=10a7csH6ppPLr7ZnNkgU_Gn3PbJQyNmoo"
     }
   ],
-  "SeaFoodPlatters": [{}],
+  "SeaFoodPlatters": [{
+    "name":"camarones a la plancha",
+    "price":"$18.00",
+    "description":"camarones a la plancha, arroz, frijoles, ensalada.",
+    "number":"2",
+    "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
+  }
+  ],
   "KidsMenuPlatter": [{
     "name":"Nugget de pollo",
     "price":"$12.00",
@@ -224,7 +272,7 @@
     {
       "name":"Nance",
       "price":"$3.00",
-      "description":"drink of nance",
+      "description":"bebida de nance",
       "number":"7",
       "image" : "https://drive.google.com/uc?export=view&id=10J9RiBm1fdXHYt_brdixsfYXTAOxNHsS"
     },
@@ -234,8 +282,29 @@
       "description":"té",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
-    }
+    },{
+      "name":"Licuado de guanábana",
+      "price":"$8.00",
+      "description":"Licuado de guanábana",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=113ujKXaVaadNggK7M8vEkgYDAC1LBa48"
+    },
 
+    {
+      "name":"Licuado de maracuyá",
+      "price":"$8.00",
+      "description":"Licuado de maracuyá",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11D2zlORIa8SsOcMRdW9RgHi5KxRT7kcR"
+    },
+
+    {
+      "name":"Licuado de papaya",
+      "price":"$8.00",
+      "description":"Licuado de papaya",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11PJpwOlt0TX8OeGtJyR5XUXKUybbQNFM"
+    }
   ]
 
 }

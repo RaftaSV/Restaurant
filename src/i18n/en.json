@@ -50,6 +50,19 @@
       "description":"roasted meat, rice, salad, beans and cheese",
       "number":"5",
       "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
+    },{
+      "name":"Meat salad",
+      "price":"$18.00",
+      "description":"grilled breast, lettuce, tomato and cucumber salad.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ro5gynDI3Pm1x4VHOEn3PDnI-gMVCoL"
+    },
+    {
+      "name":"Basic churrasco",
+      "price":"$25.00",
+      "description":"rice, salad, beans, avocado, fried banana, beef",
+      "number":"7",
+      "image" : "https://drive.google.com/uc?export=view&id=10w_Vgg0iUqkWHLp82jOpVRtRum0uIFCy"
     }
   ],
   "breakfastPlatters" : [
@@ -73,6 +86,13 @@
       "description":"Fried banana, salsa egg, avocado, cream, cheese",
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=10KOHabKnsfhbhWzvbHNItcN1RF6ymgj1"
+    },
+    {
+      "name":"Basic breakfast",
+      "price":"$10.00",
+      "description":"Bean, cream and fried banana.",
+      "number":"6",
+      "image" : "https://drive.google.com/uc?export=view&id=10ggf7G2z5If40LpKAwvh4Dvn0XRAYuB_"
     }
   ],
   "chickenPlatters": [
@@ -86,7 +106,7 @@
 
     {
       "name":"CHICKEN IN CREAM",
-      "price":"$15.00",
+      "price":"$18.00",
       "description":"Cream breast and jalapeño",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=1-APphuaU8FumhvMQdcmO9beq_3pDhPyf"
@@ -98,6 +118,13 @@
       "description":"Chicken wings, rice, beans, avocado salad.",
       "number":"3",
       "image" : "https://drive.google.com/uc?export=view&id=1-B94aA8INdkNIszQZtXc0UAfZuIV3ykI"
+    },
+    {
+      "name":"Ensalada de pechuga",
+      "price":"$15.00",
+      "description":"pechuga a la plancha,ensalada de lechuga, tomate y pepino.",
+      "number":"4",
+      "image" : "https://drive.google.com/uc?export=view&id=10loAkzFhQNZ9PgpJfuAsNTbkIGTRXrmi"
     }
   ],
   "ricePlatters": [
@@ -107,7 +134,14 @@
     "description":"Cantonese rice, flat, avocado",
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1-YtM_Hg1Gr_DH-jqcnRajm9NOddDheg3"
-  }
+  },
+    {
+      "name":"Rice with shrimp",
+      "price":"$18.00",
+      "description":"Egg, rice, shrimp, fried plantain.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=10ir-gc8AlN0l47blZjwE-33Fe4dP6eXB"
+    }
   ],
   "typicalPlatter" : [
     {
@@ -169,9 +203,23 @@
       "description":"Elote tamal, fried banana, avocado, rice, beans.",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10Oc4H3zcZV05huFAki4ghezJpA_BZQGr"
+    },
+    {
+      "name":"Quesadilla",
+      "price":"$5.00",
+      "description":"Simple quesadilla $ 4.00, with meat $ 5.00",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=10a7csH6ppPLr7ZnNkgU_Gn3PbJQyNmoo"
     }
   ],
-  "SeaFoodPlatters": [{}],
+  "SeaFoodPlatters": [{
+    "name":"grilled shrimp",
+    "price":"$18.00",
+    "description":"Grilled shrimp, rice, beans, salad.",
+    "number":"2",
+    "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
+  }
+  ],
   "KidsMenuPlatter":  [{
     "name":"chicken nugget",
     "price":"$12.00",
@@ -235,6 +283,28 @@
       "description":"tea",
       "number":"8",
       "image" : "https://drive.google.com/uc?export=view&id=10JL13ozQAha6lPyVED_6zcZ4R6HkSuiO"
+    },
+    {
+      "name":"Guanábana smoothie",
+      "price":"$ 8.00",
+      "description":"Guanábana smoothie",
+      "number":"9",
+      "image" : "https://drive.google.com/uc?export=view&id=113ujKXaVaadNggK7M8vEkgYDAC1LBa48"
+    },
+
+    {
+      "name":"Maracuyá smoothie",
+      "price":"$8.00",
+      "description":"Maracuyá smoothie",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11D2zlORIa8SsOcMRdW9RgHi5KxRT7kcR"
+    },
+    {
+      "name":"Papaya smoothie",
+      "price":"$8.00",
+      "description":"Papaya smoothie",
+      "number":"10",
+      "image" : "https://drive.google.com/uc?export=view&id=11PJpwOlt0TX8OeGtJyR5XUXKUybbQNFM"
     }
   ]
 
