@@ -15,7 +15,7 @@ const Phone = t('Phone');
 
   const redirectTo = (Site) => {
     if(Site === 'Facebook'){
-    window.location = 'https://www.facebook.com/profile.php?id=100083842727240';
+    window.location = 'https://www.facebook.com/100083842727240';
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
     }
