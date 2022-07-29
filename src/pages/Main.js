@@ -6,6 +6,8 @@ document.title = 'Home';
 
 function Main() {
 
+
+
   return (
    <Layout>
         <Banner/>

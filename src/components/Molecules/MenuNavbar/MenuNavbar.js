@@ -12,6 +12,8 @@ import SunFilled from 'components/Atoms/Icons/SunFilled';
 import ButtonBurger from 'components/Atoms/ButtonBurguer';
 import MoonFilled from 'components/Atoms/Icons/MoonFilled';
 import {StyleImage, StyleItemLeft, StyleLanguage, StyleMenuItem, StyleMenuNavbar} from './style';
+import {Link} from 'react-router-dom';
+
 
 
 
@@ -35,9 +37,11 @@ const MenuNavbar = () => {
     <>
       <StyleItemLeft>
       <ButtonBurger onClick={onToggle} isOpen={visible} />
+        <Link to={'/'}>
       <StyleImage
         loading="lazy"
         src={logo}/>
+        </Link>
       </StyleItemLeft>
       <Button color={'transparent'}
         onClick={onToggleQR}

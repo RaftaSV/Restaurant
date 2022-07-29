@@ -25,9 +25,7 @@ const ModalMenu = ({ visible, onCancel }) => {
       </NavLink>
     );
   };
-  //const redirectTo = () => {
-    //window.location = 'https://mobile.twitter.com/rafapamate/';
-  //}
+
 
 
   return (
@@ -54,7 +52,6 @@ const ModalMenu = ({ visible, onCancel }) => {
         <LinkMenu to={ROUTES.KIDS.absolutePath}> {KidsMenu} </LinkMenu>
         <LinkMenu to={ROUTES.TYPICAL.absolutePath}> {typicalPlatters} </LinkMenu>
         <LinkMenu to={ROUTES.BEVERAGES.absolutePath}> {beverages} </LinkMenu>
-
       </StyleMenuNavbar>
     </Modal>
   );
