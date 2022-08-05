@@ -4,7 +4,7 @@ export const StyleWrapper = styled.div`
   background: ${({ theme }) => theme.colors.bgCard};
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.colors.boxShadow};
-  height: 450px;
+  height: 350px;
   margin-top: 0;
   @media screen and (min-width: 768px) {
     margin-left: 5px;
