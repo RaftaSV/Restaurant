@@ -5,7 +5,7 @@ export const StyleWrapper = styled.div`
   border-radius: 16px;
   box-shadow: ${({ theme }) => theme.colors.boxShadow};
   height: 450px;
-  margin-top: 160px;
+  margin-top: 0;
   @media screen and (min-width: 768px) {
     margin-left: 5px;
     margin-top: 30px;

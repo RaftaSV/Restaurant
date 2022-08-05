@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyleBody = styled.div`
   position: relative;
-  min-width: 450px;
+  width: 370px;
   padding: 10px;
   background-color: ${({ theme }) => theme.colors.nav};
   display: flex;

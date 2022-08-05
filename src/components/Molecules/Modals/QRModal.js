@@ -1,5 +1,5 @@
 import Modal from 'components/Atoms/Modal';
-import {StyleCloseBtnQR, StyleRQModal,} from './style';
+import {StyleCloseBtnQR, StyleRQModal, StyleWrapper,} from './style';
 import QR  from 'components/Images/App/QR_Rosita_Restaurant.png';
 const QRModal = ({ visible, onCancel }) => {
 
@@ -7,13 +7,14 @@ const QRModal = ({ visible, onCancel }) => {
     <Modal
       closeButton={false}
       isOpen={visible}
+
     >
+
       <StyleCloseBtnQR onClick={onCancel} labelColor="text" color="shadowInput">
         X
       </StyleCloseBtnQR>
 
       <StyleRQModal src={QR}/>
-
 
     </Modal>
   );

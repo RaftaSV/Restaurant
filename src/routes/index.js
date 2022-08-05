@@ -9,7 +9,7 @@ import Chicken from '../pages/Chicken';
 import Rice from '../pages/Rice';
 import TypicalPlatters from '../pages/TypicalPlatters';
 import SeaFood from '../pages/SeaFood';
-import soups from '../pages/Soups';
+import Soups from 'pages/Soups';
 import KidsMenu from '../pages/KidsMenu';
 import Beverages from '../pages/Beverages';
 const Routes = () => {
@@ -23,7 +23,7 @@ const Routes = () => {
             <Route path={ROUTES.RICE.absolutePath} element={<Rice />} />
             <Route path={ROUTES.TYPICAL.absolutePath} element={<TypicalPlatters />} />
             <Route path={ROUTES.SEAFOOD.absolutePath} element={<SeaFood />} />
-          <Route path={ROUTES.SOUPS.absolutePath} element={<soups />} />
+           <Route path={ROUTES.SOUPS.absolutePath} element={<Soups />} />
             <Route path={ROUTES.KIDS.absolutePath} element={<KidsMenu />} />
             <Route path={ROUTES.BEVERAGES.absolutePath} element={<Beverages />} />
             <Route path="*" element={<NotFound />} />

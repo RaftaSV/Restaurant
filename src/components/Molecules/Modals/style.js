@@ -51,12 +51,13 @@ export const StyleMenuNavbar = styled.div`
 `;
 
 export const StyleRQModal = styled.img`
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  margin-left: 30px;
 
 `;
 export const StyleWrapper = styled.form`
-width: 500px;
-height: 500px;
+width: 300px;
+height: 300px;
 `;
 
