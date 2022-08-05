@@ -19,7 +19,7 @@ const Card404 = ()  => {
           <Return/>
         </StyleButtonRegresar>
       </Link>
-      <StyleImage loading="lazy" src={error} />
+      <StyleImage  src={error} />
     </StyleWrapper>
   );
 };

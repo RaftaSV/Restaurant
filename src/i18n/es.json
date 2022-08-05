@@ -9,6 +9,7 @@
   "rice": "Arroz",
   "typicalPlatters" : "Platillos tipicos",
   "Seafood": "Mariscos",
+  "Soups": "Sopas",
   "KidsMenu": "Platos pequeños",
   "beverages": "Bebidas",
   "SpecialPlatter" : [
@@ -141,6 +142,13 @@
       "description":"Huevo, arroz, camarón, plátano frito.",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=10ir-gc8AlN0l47blZjwE-33Fe4dP6eXB"
+    },
+    {
+      "name":"Paella",
+      "price":"$25.00",
+      "description":"arroz, camarones, ",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=11R1f6w4sEnQELNk6GLT2YTJ1S8Whu7sb"
     }
   ],
   "typicalPlatter" : [
@@ -217,8 +225,33 @@
     "description":"camarones a la plancha, arroz, frijoles, ensalada.",
     "number":"2",
     "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
-  }
+  }  ],
+
+  "Soups":[{
+    "name":"Sopa de marisco",
+    "price":"$18.00",
+    "description":"Sopa de marisco",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=11TKzaYYD4-Pojv2k9TmdkM09QOXUjysr"
+  },
+
+    {
+      "name":"Sopa de res",
+      "price":"$18.00",
+      "description":"Sopa de res",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=11hKyOqIbYOc-k0orz42WndrLonNh2gXc"
+    },
+
+    {
+      "name":"Sopa de Mondongo",
+      "price":"$18.00",
+      "description":"Sopa de Mondongo",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=11aIWpK-p8tXGzkhSdPBLQANw6WeFLngP"
+    }
   ],
+
   "KidsMenuPlatter": [{
     "name":"Nugget de pollo",
     "price":"$12.00",
@@ -226,6 +259,7 @@
     "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=1x9Tkh9-CgZXyE4QopmsByAOVp-64wWVb"
     }],
+
   "beverage": [
     {
       "name":"Guanábana",

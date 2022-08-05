@@ -9,6 +9,7 @@
   "rice": "Rice",
   "typicalPlatters" : "Typical platters",
   "Seafood": "Seafood",
+  "Soups": "Soups",
   "KidsMenu": "Small platters",
   "beverages": "Beverages",
   "SpecialPlatter" :  [
@@ -141,6 +142,13 @@
       "description":"Egg, rice, shrimp, fried plantain.",
       "number":"2",
       "image" : "https://drive.google.com/uc?export=view&id=10ir-gc8AlN0l47blZjwE-33Fe4dP6eXB"
+    },
+    {
+      "name":"Paella",
+      "price":"$25.00",
+      "description":"rice, shrimp,",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=11R1f6w4sEnQELNk6GLT2YTJ1S8Whu7sb"
     }
   ],
   "typicalPlatter" : [
@@ -219,6 +227,31 @@
     "number":"2",
     "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
   }
+  ],
+
+  "Soups":[{
+    "name":"Seafood soup",
+    "price":"$18.00",
+    "description":"Seafood soup",
+    "number":"1",
+    "image" : "https://drive.google.com/uc?export=view&id=11TKzaYYD4-Pojv2k9TmdkM09QOXUjysr"
+  },
+
+    {
+      "name":"Beef soup",
+      "price":"$18.00",
+      "description":"Beef soup",
+      "number":"two",
+      "image" : "https://drive.google.com/uc?export=view&id=11hKyOqIbYOc-k0orz42WndrLonNh2gXc"
+    },
+
+    {
+      "name":"Mondongo soup",
+      "price":"$18.00",
+      "description":"Mondongo soup",
+      "number":"3",
+      "image" : "https://drive.google.com/uc?export=view&id=11aIWpK-p8tXGzkhSdPBLQANw6WeFLngP"
+    }
   ],
   "KidsMenuPlatter":  [{
     "name":"chicken nugget",

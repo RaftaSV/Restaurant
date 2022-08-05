@@ -26,6 +26,10 @@ export const ROUTES = {
   }, SEAFOOD: {
     path: 'seafood',
     absolutePath: '/seafood'
+  },
+  SOUPS: {
+    path: 'soups',
+    absolutePath: '/soups'
   }, KIDS: {
     path: 'kids',
     absolutePath: '/kids'

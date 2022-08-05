@@ -13,6 +13,7 @@ const ModalMenu = ({ visible, onCancel }) => {
   const Chicken = t('chicken');
   const rice = t('rice');
   const seafood = t('Seafood');
+  const soups = t('soups');
   const KidsMenu = t('KidsMenu');
   const beverages = t('beverages');
   const typicalPlatters = t('typicalPlatters');
@@ -49,6 +50,7 @@ const ModalMenu = ({ visible, onCancel }) => {
         <LinkMenu to={ROUTES.CHICKEN.absolutePath}> {Chicken} </LinkMenu>
         <LinkMenu to={ROUTES.RICE.absolutePath}> {rice} </LinkMenu>
         <LinkMenu to={ROUTES.SEAFOOD.absolutePath}> {seafood} </LinkMenu>
+        <LinkMenu to={ROUTES.SOUPS.absolutePath}> {soups} </LinkMenu>
         <LinkMenu to={ROUTES.KIDS.absolutePath}> {KidsMenu} </LinkMenu>
         <LinkMenu to={ROUTES.TYPICAL.absolutePath}> {typicalPlatters} </LinkMenu>
         <LinkMenu to={ROUTES.BEVERAGES.absolutePath}> {beverages} </LinkMenu>
