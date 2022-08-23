@@ -9,7 +9,7 @@ export default function Beverages() {
   const dataBeverages = t('beverage', { returnObjects: true });
   const separator = t('beverages');
   return (
-    <Layout>
+    <Layout >
       <Carousel data={dataBeverages} separator={separator}>
       </Carousel>
     </Layout>

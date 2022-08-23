@@ -37,13 +37,7 @@
       "image" : "https://drive.google.com/uc?export=view&id=1YPVj8yOh8TK1PvtJ7prICXK9zcTj8Xum"
     },
 
-    {
-      "name":"camarones al ajillo",
-      "price":"$18.00",
-      "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
-      "number":"4",
-      "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
-    },
+
     {
       "name":"Carne azada ",
       "price":"$18.00",
@@ -223,9 +217,17 @@
     "name":"camarones a la plancha",
     "price":"$18.00",
     "description":"camarones a la plancha, arroz, frijoles, ensalada.",
-    "number":"2",
+    "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
-  }  ],
+  },
+    {
+      "name":"camarones al ajillo",
+      "price":"$18.00",
+      "description":"Camarones al ajillo, arroz, frijoles y ensalada.",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
+    }
+  ],
 
   "SoupsPlatters":[{
     "name":"Sopa de marisco",

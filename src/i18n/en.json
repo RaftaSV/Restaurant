@@ -44,14 +44,7 @@
       "number":"4",
       "image" : "https://drive.google.com/uc?export=view&id=13dBZRcoDI1TluvhlNTSRUWVwbaIY6l_U"
     },
-
     {
-      "name":"grilled meat",
-      "price":"$18.00",
-      "description":"roasted meat, rice, salad, beans and cheese",
-      "number":"5",
-      "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
-    },{
       "name":"Meat salad",
       "price":"$18.00",
       "description":"grilled breast, lettuce, tomato and cucumber salad.",
@@ -224,9 +217,16 @@
     "name":"grilled shrimp",
     "price":"$18.00",
     "description":"Grilled shrimp, rice, beans, salad.",
-    "number":"2",
+    "number":"1",
     "image" : "https://drive.google.com/uc?export=view&id=10lKY_IPOAmzG1CLzFZIuo_ANPTlqPSLk"
-  }
+  },
+    {
+      "name":"grilled meat",
+      "price":"$18.00",
+      "description":"roasted meat, rice, salad, beans and cheese",
+      "number":"2",
+      "image" : "https://drive.google.com/uc?export=view&id=1-LMEvzdlna47ceGBlOucoO1DIKYMx4nn"
+    }
   ],
 
   "SoupsPlatters":[{
