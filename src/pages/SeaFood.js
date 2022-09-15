@@ -7,7 +7,7 @@ export default function SeaFood() {
   document.title='Dish';
   const {t} = useTranslation();
   const SeaFoodPlatters = t('SeaFoodPlatters', { returnObjects: true });
-  const separator = t('SeaFood');
+  const separator = t('Seafood');
   return (
     <Layout>
       <Carousel data={SeaFoodPlatters} separator={separator}>
