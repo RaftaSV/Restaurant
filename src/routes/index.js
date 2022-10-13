@@ -26,6 +26,7 @@ const Routes = () => {
            <Route path={ROUTES.SOUPS.absolutePath} element={<Soups />} />
             <Route path={ROUTES.KIDS.absolutePath} element={<KidsMenu />} />
             <Route path={ROUTES.BEVERAGES.absolutePath} element={<Beverages />} />
+
             <Route path="*" element={<NotFound />} />
         </ReactRoutes>
       </BrowserRouter>

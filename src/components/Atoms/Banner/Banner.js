@@ -12,16 +12,21 @@ const {t} = useTranslation();
 const welcome = t('Welcome');
 const Address = t('Address');
 const Phone = t('Phone');
+const Vermenu = t('Vermenu');
+
+
 
   const redirectTo = (Site) => {
     if(Site === 'Facebook'){
     window.location = 'https://www.facebook.com/100083842727240';
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
-    }
-    else{
+    }else if(Site === 'Vermenu'){
+      window.location = 'https://restaurant-lake-ten.vercel.app/SpecialPlatters';
+    }else{
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
     }
+
   }
   return(
 
@@ -30,6 +35,8 @@ const Phone = t('Phone');
       <StyleImageBanner loading="lazy" src={LogoBanner}/>
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
+
+      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
       <StyleSocialNetwork>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
       <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
