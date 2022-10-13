@@ -22,7 +22,7 @@ const Vermenu = t('Vermenu');
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
     }else if(Site === 'Vermenu'){
-      window.location = 'https://restaurant-lake-ten.vercel.app/SpecialPlatters';
+      window.location = 'https://www.canva.com/design/DAFIeapa51k/9HlV6p_5QoFUNGs1iaH8gg/view';
     }else{
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
     }
