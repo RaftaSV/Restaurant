@@ -36,7 +36,7 @@ const Vermenu = t('Vermenu');
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
 
-      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
+      <Button onClick={() => redirectTo('Vermenu') } color={'RED'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
       <StyleSocialNetwork>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
       <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
