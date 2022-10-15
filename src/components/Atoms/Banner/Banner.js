@@ -22,7 +22,7 @@ const Vermenu = t('Vermenu');
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
     }else if(Site === 'Vermenu'){
-      window.location = 'https://www.canva.com/design/DAFIeapa51k/9HlV6p_5QoFUNGs1iaH8gg/view?website#2:men-8';
+      window.location = 'https://www.canva.com/design/DAFIeapa51k/9HlV6p_5QoFUNGs1iaH8gg/view?website#1:men';
     }else{
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
     }
