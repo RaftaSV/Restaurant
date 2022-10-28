@@ -35,8 +35,8 @@ const MenuNavbar = () => {
 
   return (
     <>
-      <StyleItemLeft>
-      <ButtonBurger onClick={onToggle} isOpen={visible} />
+     <StyleItemLeft>
+
         <Link to={'/'}>
       <StyleImage
         loading="lazy"
