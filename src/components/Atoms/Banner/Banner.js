@@ -1,4 +1,12 @@
-import {StyleImageBanner, StyleSocialNetwork, StyleTiktok, StyleViewMenu, StyleWrapper} from './style';
+import {
+  StyleImageBanner,
+  StyleSocialNetwork,
+  StyleButton,
+  StyleViewMenu,
+  StyleWrapper,
+  StyleTiktok,
+  StyleCenter
+} from './style';
 import LogoBanner from 'components/Images/App/logo.png'
 import {useTranslation} from 'react-i18next';
 import Title from 'components/Atoms/Title';
@@ -42,9 +50,15 @@ const seeMenu = t('seeMenu');
       <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
       </StyleViewMenu>
         <StyleSocialNetwork>
+          <StyleButton>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
+      </StyleButton>
+      <StyleCenter>
       <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
+      </StyleCenter>
+          <StyleCenter>
         <Button onClick={() => redirectTo('WhatsApp') } color={'transparent'}><WhatsApp/></Button>
+      </StyleCenter>
         <StyleTiktok>
         <Button onClick={() => redirectTo('Tiktok') } color={'transparent'}><Tiktok/></Button>
         </StyleTiktok>

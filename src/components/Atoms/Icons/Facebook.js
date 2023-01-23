@@ -4,7 +4,7 @@ const Facebook = () => {
       viewBox="0 0 1024 1024"
       focusable="false"
       data-icon="loading-3-quarters"
-      width="5em"
+      width="4.7em"
       height="5em"
       fill="currentColor"
       aria-hidden="true"
