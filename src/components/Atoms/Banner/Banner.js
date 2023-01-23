@@ -13,7 +13,7 @@ const {t} = useTranslation();
 const welcome = t('Welcome');
 const Address = t('Address');
 const Phone = t('Phone');
-const Vermenu = t('Vermenu');
+const seeMenu = t('seeMenu');
 
 
 
@@ -39,7 +39,7 @@ const Vermenu = t('Vermenu');
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
       <StyleViewMenu>
-      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
+      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
       </StyleViewMenu>
         <StyleSocialNetwork>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
