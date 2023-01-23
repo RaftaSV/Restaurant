@@ -1,4 +1,4 @@
-import {StyleImageBanner, StyleSocialNetwork, StyleTiktok, StyleWrapper} from './style';
+import {StyleImageBanner, StyleSocialNetwork, StyleTiktok, StyleViewMenu, StyleWrapper} from './style';
 import LogoBanner from 'components/Images/App/logo.png'
 import {useTranslation} from 'react-i18next';
 import Title from 'components/Atoms/Title';
@@ -6,6 +6,7 @@ import Button from 'components/Atoms/Button';
 import Facebook from 'components/Atoms/Icons/Facebook';
 import Instagram from 'components/Atoms/Icons/Instagram';
 import Tiktok from 'components/Atoms/Icons/Tiktok';
+import WhatsApp from '../Icons/WhatsApp';
 
 const Banner = () => {
 const {t} = useTranslation();
@@ -23,7 +24,9 @@ const Vermenu = t('Vermenu');
       window.location = 'https://www.instagram.com/rositasrestauante';
     }else if(Site === 'Vermenu'){
       window.location = 'https://www.canva.com/design/DAFIeapa51k/9HlV6p_5QoFUNGs1iaH8gg/view?website#2:inicio';
-    }else{
+    }else if(Site === 'WhatsApp'){
+      window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
+    } else if(Site === 'Tiktok'){
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
     }
 
@@ -35,11 +38,13 @@ const Vermenu = t('Vermenu');
       <StyleImageBanner loading="lazy" src={LogoBanner}/>
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
-
-      <Button onClick={() => redirectTo('Vermenu') } color={'RED'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
-      <StyleSocialNetwork>
+      <StyleViewMenu>
+      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}><Vermenu/> <Title size={20}>Ver Menu</Title></Button>
+      </StyleViewMenu>
+        <StyleSocialNetwork>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
       <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
+        <Button onClick={() => redirectTo('WhatsApp') } color={'transparent'}><WhatsApp/></Button>
         <StyleTiktok>
         <Button onClick={() => redirectTo('Tiktok') } color={'transparent'}><Tiktok/></Button>
         </StyleTiktok>
