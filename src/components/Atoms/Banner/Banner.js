@@ -31,7 +31,7 @@ const seeMenu = t('seeMenu');
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
     }else if(Site === 'Vermenu'){
-      window.location = 'https://www.canva.com/design/DAFIeapa51k/9HlV6p_5QoFUNGs1iaH8gg/view?website#2:inicio';
+      window.location = 'https://www.canva.com/design/DAFZXoaei1k/3yPQEndKW7ebYf7eKXWN6g/view?website#2:breakfast';
     }else if(Site === 'WhatsApp'){
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
