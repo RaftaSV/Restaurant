@@ -31,7 +31,7 @@ const seeMenu = t('seeMenu');
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestauante';
     }else if(Site === 'Vermenu'){
-      window.location = 'https://www.canva.com/design/DAFZXoaei1k/3yPQEndKW7ebYf7eKXWN6g/view?website#2:breakfast';
+      window.location = 'https://rositas-restaurant-08822.my.canva.site/rosita-s-restaurant-menu';
     }else if(Site === 'WhatsApp'){
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
@@ -46,6 +46,7 @@ const seeMenu = t('seeMenu');
       <StyleImageBanner loading="lazy" src={LogoBanner}/>
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
+      
       <StyleViewMenu>
       <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
       </StyleViewMenu>
