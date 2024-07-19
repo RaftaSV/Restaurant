@@ -51,8 +51,10 @@ window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
       
       <StyleViewMenu>
       <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
- <Button onClick={() => redirectTo('order') } color={'transparent'}> <Title size={20}>{orderHere}</Title></Button>
       </StyleViewMenu>
+<Button onClick={() => redirectTo('order') } color={'transparent'}> <Title size={20}>{orderHere}</Title></Button>
+      <StyleViewMenu>
+     </StyleViewMenu>
         <StyleSocialNetwork>
           <StyleButton>
       <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
