@@ -22,7 +22,7 @@ const welcome = t('Welcome');
 const Address = t('Address');
 const Phone = t('Phone');
 const seeMenu = t('seeMenu');
-
+const orderHere = t('order');
 
 
   const redirectTo = (Site) => {
@@ -36,7 +36,9 @@ const seeMenu = t('seeMenu');
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
-    }
+    } else if(siete === 'order') {
+window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
+}
 
   }
   return(
@@ -49,6 +51,7 @@ const seeMenu = t('seeMenu');
       
       <StyleViewMenu>
       <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
+ <Button onClick={() => redirectTo('order') } color={'transparent'}> <Title size={20}>{orderHere}</Title></Button>
       </StyleViewMenu>
         <StyleSocialNetwork>
           <StyleButton>
