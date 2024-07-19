@@ -74,5 +74,6 @@ export const StyleTiktok = styled.div`
 export const StyleViewMenu = styled.div`
   background: ${({ theme }) => theme.colors.nav};
   border-radius: 10px;
+  Gap: 20 px;
 `;
 
