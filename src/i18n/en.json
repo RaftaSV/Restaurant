@@ -13,6 +13,7 @@
   "Soups": "Soups",
   "KidsMenu": "Small platters",
   "beverages": "Beverages",
+  "order":"Order now",
   "SpecialPlatter" :  [
     {
       "name":"sea and land",
