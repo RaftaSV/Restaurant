@@ -36,7 +36,7 @@ const orderHere = t('order');
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
       window.location = 'https://www.tiktok.com/@rositasrestaurante';
-    } else if(siete === 'order') {
+    } else if(Site === 'order') {
 window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
 }
 
