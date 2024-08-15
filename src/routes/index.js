@@ -12,6 +12,7 @@ import SeaFood from '../pages/SeaFood';
 import Soups from 'pages/Soups';
 import KidsMenu from '../pages/KidsMenu';
 import Beverages from '../pages/Beverages';
+import Orders from 'pages/Orders';
 const Routes = () => {
   return (
       <BrowserRouter>
@@ -23,9 +24,10 @@ const Routes = () => {
             <Route path={ROUTES.RICE.absolutePath} element={<Rice />} />
             <Route path={ROUTES.TYPICAL.absolutePath} element={<TypicalPlatters />} />
             <Route path={ROUTES.SEAFOOD.absolutePath} element={<SeaFood />} />
-           <Route path={ROUTES.SOUPS.absolutePath} element={<Soups />} />
+            <Route path={ROUTES.SOUPS.absolutePath} element={<Soups />} />
             <Route path={ROUTES.KIDS.absolutePath} element={<KidsMenu />} />
             <Route path={ROUTES.BEVERAGES.absolutePath} element={<Beverages />} />
+            <Route path={ROUTES.QR.absolutePath} element={<Orders/>} /> 
 
             <Route path="*" element={<NotFound />} />
         </ReactRoutes>

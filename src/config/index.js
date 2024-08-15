@@ -42,6 +42,10 @@ export const ROUTES = {
     path: 'Contact',
     absolutePath: 'Contact'
   },
+  QR: {
+    path: 'QR',
+    absolutePath: 'Ordenes'
+  },
   NOTFOUND: {
     path: 'NotFound',
     absolutePath: 'NotFound'
