@@ -14,6 +14,7 @@ import Tiktok from 'components/Atoms/Icons/Tiktok';
 import WhatsApp from '../Icons/WhatsApp';
 import Maps from '../Icons/Maps';
 import Container from '../../Organisms/Container';
+import Telephone from '../Icons/Phone';
 
 const Banner = () => {
 const {t} = useTranslation();
@@ -55,24 +56,31 @@ window.location = 'https://maps.app.goo.gl/KUkerCaXq99qNZzP6';
       <StyleViewMenu>
 <Button onClick={() => redirectTo('order') } color={'button'}> <Title size={20}>{orderHere}</Title></Button>
      </StyleViewMenu>
-        <Container widthTablet={'70'} widthMobile={'70'} widthDesktop={'70'}>
-          <StyleSocialNetwork>
-            <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
-          </StyleSocialNetwork>
-          <StyleSocialNetwork>
-            <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
-          </StyleSocialNetwork>
-          <StyleSocialNetwork>
-            <Button onClick={() => redirectTo('WhatsApp') } color={'transparent'}><WhatsApp/></Button>
-          </StyleSocialNetwork>
+      <Container widthTablet={'70'} widthMobile={'70'} widthDesktop={'70'}>
         <StyleSocialNetwork>
-            <Button onClick={() => redirectTo('Tiktok') } color={'transparent'}><Tiktok/></Button>
+          <Button onClick={() => redirectTo('Facebook')} color={'transparent'}><Facebook/></Button>
         </StyleSocialNetwork>
         <StyleSocialNetwork>
-          <Button onClick={() => redirectTo('Maps') } color={'transparent'}> <Maps/></Button>
+          <Button onClick={() => redirectTo('Instagram')} color={'transparent'}><Instagram/></Button>
         </StyleSocialNetwork>
-        </Container>
-      </StyleWrapper>
+        <StyleSocialNetwork>
+          <Button onClick={() => redirectTo('WhatsApp')} color={'transparent'}><WhatsApp/></Button>
+        </StyleSocialNetwork>
+        <StyleSocialNetwork>
+          <Button onClick={() => redirectTo('Tiktok')} color={'transparent'}><Tiktok/></Button>
+        </StyleSocialNetwork>
+        <StyleSocialNetwork>
+          <Button onClick={() => redirectTo('Maps')} color={'transparent'}> <Maps/></Button>
+        </StyleSocialNetwork>
+        <StyleSocialNetwork>
+          <Button
+            onClick={()=>{
+              window.location.href='tel:+9088247582';
+            }}
+            color={'transparent'}> <Telephone/></Button>
+        </StyleSocialNetwork>
+      </Container>
+    </StyleWrapper>
   );
 
 };
