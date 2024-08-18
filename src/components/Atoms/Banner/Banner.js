@@ -1,11 +1,8 @@
 import {
   StyleImageBanner,
   StyleSocialNetwork,
-  StyleButton,
   StyleViewMenu,
   StyleWrapper,
-  StyleTiktok,
-  StyleCenter
 } from './style';
 import LogoBanner from 'components/Images/App/logo.png'
 import {useTranslation} from 'react-i18next';
@@ -15,6 +12,8 @@ import Facebook from 'components/Atoms/Icons/Facebook';
 import Instagram from 'components/Atoms/Icons/Instagram';
 import Tiktok from 'components/Atoms/Icons/Tiktok';
 import WhatsApp from '../Icons/WhatsApp';
+import Maps from '../Icons/Maps';
+import Container from '../../Organisms/Container';
 
 const Banner = () => {
 const {t} = useTranslation();
@@ -38,6 +37,8 @@ const orderHere = t('order');
       window.location = 'https://www.tiktok.com/@rositasrestaurant6';
     } else if(Site === 'order') {
 window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
+}else if(Site === 'Maps') {
+window.location = 'https://maps.app.goo.gl/KUkerCaXq99qNZzP6';
 }
 
   }
@@ -48,27 +49,29 @@ window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
       <StyleImageBanner loading="lazy" src={LogoBanner}/>
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
-      
       <StyleViewMenu>
-      <Button onClick={() => redirectTo('Vermenu') } color={'transparent'}> <Title size={20}>{seeMenu}</Title></Button>
+      <Button onClick={() => redirectTo('Vermenu') } color={'button'}> <Title size={20}>{seeMenu}</Title></Button>
       </StyleViewMenu>
       <StyleViewMenu>
-<Button onClick={() => redirectTo('order') } color={'transparent'}> <Title size={20}>{orderHere}</Title></Button>
+<Button onClick={() => redirectTo('order') } color={'button'}> <Title size={20}>{orderHere}</Title></Button>
      </StyleViewMenu>
+        <Container widthTablet={'70'} widthMobile={'70'} widthDesktop={'70'}>
+          <StyleSocialNetwork>
+            <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
+          </StyleSocialNetwork>
+          <StyleSocialNetwork>
+            <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
+          </StyleSocialNetwork>
+          <StyleSocialNetwork>
+            <Button onClick={() => redirectTo('WhatsApp') } color={'transparent'}><WhatsApp/></Button>
+          </StyleSocialNetwork>
         <StyleSocialNetwork>
-          <StyleButton>
-      <Button onClick={() => redirectTo('Facebook') } color={'transparent'}><Facebook/></Button>
-      </StyleButton>
-      <StyleCenter>
-      <Button onClick={() => redirectTo('Instagram') } color={'transparent'}><Instagram/></Button>
-      </StyleCenter>
-          <StyleCenter>
-        <Button onClick={() => redirectTo('WhatsApp') } color={'transparent'}><WhatsApp/></Button>
-      </StyleCenter>
-        <StyleTiktok>
-        <Button onClick={() => redirectTo('Tiktok') } color={'transparent'}><Tiktok/></Button>
-        </StyleTiktok>
-      </StyleSocialNetwork>
+            <Button onClick={() => redirectTo('Tiktok') } color={'transparent'}><Tiktok/></Button>
+        </StyleSocialNetwork>
+        <StyleSocialNetwork>
+          <Button onClick={() => redirectTo('Maps') } color={'transparent'}> <Maps/></Button>
+        </StyleSocialNetwork>
+        </Container>
       </StyleWrapper>
   );
 

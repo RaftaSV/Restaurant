@@ -1,11 +1,11 @@
 const Instagram = () => {
   return (
     <svg
-      viewBox="0 0 1024 1024"
+      viewBox="0 0 1024 1200"
       focusable="false"
       data-icon="loading-3-quarters"
-      width="5em"
-      height="5em"
+      width="4em"
+      height="4em"
       fill="currentColor"
       aria-hidden="true"
     >

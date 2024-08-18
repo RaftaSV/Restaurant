@@ -5,12 +5,11 @@ export const Container = styled.div`
   gap: 20px;
   margin-top: 20px;
   ${mediaQueries.mobile} {
-    width: 98%;
+    width: 100%;
     justify-content: center;
     align-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(${({ $widthMobile }) => $widthMobile}px, 0px));
-
   }
 
   ${mediaQueries.tablet} {
@@ -30,7 +29,7 @@ export const Container = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(${({ $widthDesktop }) => $widthDesktop}px, 0px));
     gap: 20px;
     justify-content: center;
-    overflow-y: auto;
+    overflow-y: unset;
 
     /* Personalización de la barra de desplazamiento para WebKit (Chrome, Safari, Edge moderno) */
     &::-webkit-scrollbar {

@@ -43,13 +43,6 @@ const MenuNavbar = () => {
         src={logo}/>
         </Link>
       </StyleItemLeft>
-      <Button color={'transparent'}
-        onClick={onToggleQR}
-
-      >
-        <QR/>
-      </Button>
-
       <StyleMenuNavbar>
         <StyleMenuItem
           color="transparent"
