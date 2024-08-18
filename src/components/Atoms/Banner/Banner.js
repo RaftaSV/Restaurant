@@ -29,13 +29,13 @@ const orderHere = t('order');
     if(Site === 'Facebook'){
     window.location = 'https://www.facebook.com/100083842727240';
   }else if(Site=== 'Instagram'){
-      window.location = 'https://www.instagram.com/rositasrestauante';
+      window.location = 'https://www.instagram.com/rositasrestaurantnj';
     }else if(Site === 'Vermenu'){
       window.location = 'https://rositas-restaurant-08822.my.canva.site/rosita-s-restaurant-menu';
     }else if(Site === 'WhatsApp'){
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
-      window.location = 'https://www.tiktok.com/@rositasrestaurante';
+      window.location = 'https://www.tiktok.com/@rositasrestaurant6';
     } else if(Site === 'order') {
 window.location = 'https://rositasrestaurant.hrpos.heartland.us/menu';
 }
