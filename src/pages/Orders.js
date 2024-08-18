@@ -32,7 +32,7 @@ return (
   
  <Layout>
 <Title>Generar orden</Title>
-  <Container widthDesktop={'200'} widthMobile={'200'} widthTablet={'200'}>
+  <Container widthDesktop={'200'} widthMobile={'150'} widthTablet={'200'}>
     {
       qrCodeData?.map(table => {
         const {table_name, qr_code_url} = table;

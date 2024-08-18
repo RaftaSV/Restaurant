@@ -10,8 +10,8 @@ background: ${({ theme }) => theme.colors.bgCard};
   justify-content: center;
   cursor:pointer;
 ${mediaQueries.mobile} {
-width: 200px;
-height 100px;
+width: 150px;
+height 150px;
 }
 
 ${mediaQueries.tablet} {
