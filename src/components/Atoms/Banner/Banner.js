@@ -1,6 +1,6 @@
 import {
   StyleImageBanner,
-  StyleSocialNetwork,
+  StyleSocialNetwork, StyleSocialPhone,
   StyleViewMenu,
   StyleWrapper,
 } from './style';
@@ -72,13 +72,13 @@ window.location = 'https://maps.app.goo.gl/KUkerCaXq99qNZzP6';
         <StyleSocialNetwork>
           <Button onClick={() => redirectTo('Maps')} color={'transparent'}> <Maps/></Button>
         </StyleSocialNetwork>
-        <StyleSocialNetwork>
+        <StyleSocialPhone>
           <Button
             onClick={()=>{
               window.location.href='tel:+9088247582';
             }}
             color={'transparent'}> <Telephone/></Button>
-        </StyleSocialNetwork>
+        </StyleSocialPhone>
       </Container>
     </StyleWrapper>
   );

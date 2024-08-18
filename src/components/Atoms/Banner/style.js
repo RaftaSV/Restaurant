@@ -68,6 +68,23 @@ export const StyleSocialNetwork = styled.div`
   }
 `;
 
+export const StyleSocialPhone = styled.div`
+
+  ${mediaQueries.mobile}{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+  ${mediaQueries.tablet}{
+    display: none;
+  }
+  ${mediaQueries.desktop}{
+    display: none;
+  }
+`;
+
 export const StyleButton = styled.div`
   margin-left: 10px;
   @media screen and (min-width: 768px) {
