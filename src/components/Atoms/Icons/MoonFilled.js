@@ -2,7 +2,7 @@ const MoonFilled = () => {
   return (
     <svg
       stroke="currentColor"
-      fill="currentColor"
+      fill="white"
       strokeWidth="0"
       viewBox="0 0 490 490"
       height="1em"

@@ -9,7 +9,7 @@ return (
         window.location = url;
     }}
     >
-    <Title htmlTag="p" size={20}> Servicio en: {text}</Title>
+    <Title htmlTag="p" size={20}>{text}</Title>
     </StyleWrapper>
 );
 

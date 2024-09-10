@@ -13,13 +13,14 @@ const colorsLight = {
   transparent: 'transparent',
   bgCard: 'rgba(209,155,123,0.28)',
   text: '#000000',
-  nav: '#ce3c61',
+  nav: '#131313',
   modal: 'rgba(0, 0, 0, 0.1)',
   bgModal: 'white',
   input: '#F5F5F5',
   shadowInput: 'rgb(224, 224, 224)',
   Separator : 'rgba(225,114,205,0.24)',
   nameProduct: '#56321f',
+  button: '#eca51e',
   price: 'rgba(206,60,97,0.53)',
 };
 
@@ -28,13 +29,14 @@ const colorsDark = {
   background: '#000000',
   text: '#ffffff',
   bgCard: 'rgba(157,59,154,0.18)',
-  nav: 'rgba(130,44,104,0.72)',
+  nav: 'rgba(12,12,12,0.56)',
   bgModal: '#161616',
   input: '#161616',
   shadowInput: 'rgb(77, 77, 77)',
   Separator : 'rgba(221,114,225,0.47)',
   nameProduct: 'rgba(253,125,225,0.53)',
   price: 'rgba(191,60,206,0.37)',
+  button: '#c08103',
 };
 
 const zIndex = {

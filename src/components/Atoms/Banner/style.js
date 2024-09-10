@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {mediaQueries} from 'styles/theme';
 
 export const StyleWrapper = styled.div`
   margin-left: 5%;
@@ -25,29 +26,62 @@ export const StyleWrapper = styled.div`
 `;
 
 export const StyleImageBanner = styled.img`
-  width: 118%;
-  padding: 30px;
-  height: 100%;
-  @media screen and (min-width: 768px) {
-    width: auto;
-    height: auto;
-    margin-top: -70px;
-    max-width: 58%;
-padding: 0;
+  ${mediaQueries.mobile}{
+    margin-top: -6%;
+    margin-left: -10%;
+    width: 100%;
+  }
+  ${mediaQueries.tablet}{
+    margin-top: -6%;
+    margin-left: -10%;
+    width: 90%;
+  }
+  ${mediaQueries.desktop}{
+    margin-top: -6%;
+    margin-left: -10%;
+    width: 50%;
   }
 `;
 
 export const StyleSocialNetwork = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 80%;
-   margin-top: 30px;
-  @media screen and (min-width: 768px) {
+
+  ${mediaQueries.mobile}{
     display: flex;
-    flex-direction: row;
+    width: 70px;
+    height: 70px;
     justify-content: center;
-    width: 100%;
+    align-content: center;
+  }
+  ${mediaQueries.tablet}{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+  ${mediaQueries.desktop}{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+`;
+
+export const StyleSocialPhone = styled.div`
+
+  ${mediaQueries.mobile}{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+  }
+  ${mediaQueries.tablet}{
+    display: none;
+  }
+  ${mediaQueries.desktop}{
+    display: none;
   }
 `;
 
@@ -72,7 +106,6 @@ export const StyleTiktok = styled.div`
 `;
 
 export const StyleViewMenu = styled.div`
-  background: ${({ theme }) => theme.colors.nav};
   border-radius: 10px;
   margin-top:10px;
 `;

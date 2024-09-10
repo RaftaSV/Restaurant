@@ -11,7 +11,7 @@ background: ${({ theme }) => theme.colors.bgCard};
   cursor:pointer;
 ${mediaQueries.mobile} {
 width: 150px;
-height 150px;
+height 100px;
 }
 
 ${mediaQueries.tablet} {
