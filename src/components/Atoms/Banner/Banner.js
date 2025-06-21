@@ -50,9 +50,9 @@ window.location = 'https://maps.app.goo.gl/KUkerCaXq99qNZzP6';
       <StyleImageBanner loading="lazy" src={LogoBanner}/>
       <Title size={20}>{Address}</Title>
       <Title size={20}>{Phone}</Title>
-      <StyleViewMenu>
-      <Button onClick={() => redirectTo('Vermenu') } color={'button'}> <Title size={20}>{seeMenu}</Title></Button>
-      </StyleViewMenu>
+      //**<StyleViewMenu>
+      //**<Button onClick={() => redirectTo('Vermenu') } color={'button'}> <Title size={20}>{seeMenu}</Title></Button>
+      ///**</StyleViewMenu>
       <StyleViewMenu>
 <Button onClick={() => redirectTo('order') } color={'button'}> <Title size={20}>{orderHere}</Title></Button>
      </StyleViewMenu>
