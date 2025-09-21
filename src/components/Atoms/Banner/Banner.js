@@ -31,7 +31,7 @@ const orderHere = t('order');
   }else if(Site=== 'Instagram'){
       window.location = 'https://www.instagram.com/rositasrestaurantnj';
     }else if(Site === 'Vermenu'){
-      window.location = 'https://rositas-restaurant-08822.my.canva.site/para-facebook';
+      window.location = 'https://rositas-restaurant-08822.my.canva.site;
     }else if(Site === 'WhatsApp'){
       window.location = 'https://wa.me/message/3B3DKG6SX4E6C1';
     } else if(Site === 'Tiktok'){
