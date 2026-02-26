@@ -3,6 +3,10 @@ import {
   StyleSocialNetwork, StyleSocialPhone,
   StyleViewMenu,
   StyleWrapper,
+  StyleGalleryWrapper,
+  StyleGalleryCard,
+  StyleGalleryImage,
+  StyleGalleryText
 } from './style';
 import LogoBanner from 'components/Images/App/logo.png'
 import {useTranslation} from 'react-i18next';
@@ -15,6 +19,9 @@ import WhatsApp from '../Icons/WhatsApp';
 import Maps from '../Icons/Maps';
 import Container from '../../Organisms/Container';
 import Telephone from '../Icons/Phone';
+import Food1 from 'components/Images/App/DESAYUNO 1.png';
+import Food2 from 'components/Images/App/desayuno 2.png';
+import Food3 from 'components/Images/App/DESAYUNO 3.png';
 
 const Banner = () => {
 const {t} = useTranslation();
@@ -80,6 +87,35 @@ window.location = 'https://maps.app.goo.gl/KUkerCaXq99qNZzP6';
             color={'transparent'}> <Telephone/></Button>
         </StyleSocialPhone>
       </Container>
+{/* ===== GALERIA DE PLATOS ===== */}
+
+<StyleGalleryWrapper>
+
+  <StyleGalleryCard>
+    <StyleGalleryImage src={Food1
+      
+    } alt="Desayuno 1" />
+    <StyleGalleryText>
+      Delicious handmade pupusas prepared fresh every day.
+    </StyleGalleryText>
+  </StyleGalleryCard>
+
+  <StyleGalleryCard>
+    <StyleGalleryImage src={Food2} alt="Desayuno 2" />
+    <StyleGalleryText>
+      Traditional Central American seafood soup full of flavor.
+    </StyleGalleryText>
+  </StyleGalleryCard>
+
+  <StyleGalleryCard>
+    <StyleGalleryImage src={Food3} alt="Desayuno 3" />
+    <StyleGalleryText>
+      Authentic baleadas with homemade tortillas and fresh ingredients.
+    </StyleGalleryText>
+  </StyleGalleryCard>
+
+</StyleGalleryWrapper>
+
     </StyleWrapper>
   );
 

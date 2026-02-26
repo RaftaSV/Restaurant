@@ -48,3 +48,30 @@ export const StyleButtonBurger = styled.div`
     ${({ $isOpen }) => $isOpen && cssAfter}
   }
 `;
+
+import styled from 'styled-components';
+
+export const StyleGalleryWrapper = styled.div`
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+`;
+
+export const StyleGalleryCard = styled.div`
+  width: 280px;
+  text-align: center;
+`;
+
+export const StyleGalleryImage = styled.img`
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+`;
+
+export const StyleGalleryText = styled.p`
+  margin-top: 10px;
+  font-size: 16px;
+`;
