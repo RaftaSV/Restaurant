@@ -1,11 +1,12 @@
-import {StyleWrapper} from './style';
+import { StyleWrapper } from './style';
 
-const ButtonMenu = ({Item}) => {
 
+
+const ButtonMenu = ({ item, onClick, className }) => {
   return (
-      <StyleWrapper>
-        {Item}
-      </StyleWrapper>
+    <StyleWrapper onClick={onClick} className={className} type="button">
+      {item}
+    </StyleWrapper>
   );
 };
 

@@ -1,18 +1,31 @@
 import useModal from 'Hooks/useModal';
 import {useTranslation} from 'react-i18next';
-import Button from 'components/Atoms/Button';
-import { useAppTheme } from 'context/AppTheme';
-import QR from 'components/Atoms/Icons/QRCode';
+
+
+
+
 import logo from 'components/Images/App/logo.png';
 import {useAppLanguage} from 'context/AppLanguaje';
 import English from 'components/Atoms/Flag/English';
 import Spanish from 'components/Atoms/Flag/Spanish';
 import {ModalMenu, QRModal} from 'components/Molecules/Modals';
-import SunFilled from 'components/Atoms/Icons/SunFilled';
+
 //import ButtonBurger from 'components/Atoms/ButtonBurguer';
-import MoonFilled from 'components/Atoms/Icons/MoonFilled';
-import {StyleImage, StyleItemLeft, StyleLanguage, StyleMenuItem, StyleMenuNavbar} from './style';
+
+
 import {Link} from 'react-router-dom';
+import React, { useState } from "react";
+import {
+  StyleImage,
+  StyleItemLeft,
+  StyleLanguage,
+
+  StyleMenuNavbar,
+  StyleHamburgerBtn,
+  StyleMobileMenuPanel,
+  StyleMobileMenuItem,
+} from "./style";
+
 
 
 
@@ -20,9 +33,17 @@ import {Link} from 'react-router-dom';
 
 const MenuNavbar = () => {
 
+  const [open, setOpen] = useState(false);
+
+const goTo = (id) => {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  setOpen(false);
+};
+
   const language = localStorage.getItem('land');
   const {i18n} = useTranslation();
-  const { themeToggle, theme } = useAppTheme();
+
   const {languageToggle} = useAppLanguage();
   const onChangeLanguage = () => {
     languageToggle();
@@ -43,24 +64,49 @@ const MenuNavbar = () => {
         src={logo}/>
         </Link>
       </StyleItemLeft>
+
+      
       <StyleMenuNavbar>
-        <StyleMenuItem
-          color="transparent"
-          labelColor="text"
-          onClick={themeToggle}
-          style={{ fontSize: 19 }}
-        >
-          {theme === 'light' ? <MoonFilled /> : <SunFilled />}
-        </StyleMenuItem>
+     
+
+
+        
 
         <StyleLanguage
           onClick={onChangeLanguage}>
           { localStorage.getItem('land') === 'en' ? <English /> : <Spanish />}
         </StyleLanguage>
+
+        {/* ✅ Botón hamburguesa (móvil) */}
+<StyleHamburgerBtn
+  onClick={() => setOpen(!open)}
+  aria-label="Abrir menú"
+  type="button"
+>
+  ☰
+</StyleHamburgerBtn>
       </StyleMenuNavbar>
+
+      {open && (
+    <StyleMobileMenuPanel>
+     <StyleMobileMenuItem onClick={() => goTo("Inicio")}>Inicio</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("Desayunos")}>Desayunos / Breakfast</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("tipicos")}>Platos Típicos / Traditional Dishes</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("appetizers")}>PICADA / APPETIZERS</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("baleadas")}>BALEADAS</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("pupusas")}>PUPUSAS</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("kids")}>kids</StyleMobileMenuItem>
+      <StyleMobileMenuItem onClick={() => goTo("contacto")}>Contacto</StyleMobileMenuItem>
+    </StyleMobileMenuPanel>
+  )}
+
+
+
+
       <ModalMenu onCancel={onToggle} visible={visible} />
       <QRModal onCancel={onToggleQR} visible={visibleQR} />
     </>
+    
 
   );
 };
